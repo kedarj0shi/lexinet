@@ -29,12 +29,10 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (searchText.length === 0) setData(COMBINEDATA);
-    else {
-      const searched_text = searchText.toLowerCase();
-      const new_data = modifyData(searched_text);
-      setData(new_data);
-    }
+    const searched_text = searchText.toLowerCase();
+    console.log(searched_text);
+    const new_data = modifyData(searched_text);
+    setData(new_data);
   }, [searchText]);
 
   function modifyData(searched_text) {
@@ -47,6 +45,7 @@ export default function App() {
         newData.push(item);
       }
     });
+    return newData;
   }
 
   if (!loaded) return null;
