@@ -30,7 +30,7 @@ export default function App() {
 
   useEffect(() => {
     const searched_text = searchText.toLowerCase();
-    console.log(searched_text);
+    // console.log(searched_text);
     const new_data = modifyData(searched_text);
     setData(new_data);
   }, [searchText]);

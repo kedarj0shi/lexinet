@@ -12,9 +12,23 @@ const Card = ({ data }) => {
         margin: SIZES.base,
         ...SHADOWS.dark,
       }}>
-      <View style={{ width: "100%", height: 150 }}>
-        <Text style={styles.term}>
-          {data.Abbreviation ? data.Abbreviation : data.Term}
+      <View
+        style={{
+          width: "100%",
+          height: "auto",
+          paddingBottom: 20,
+        }}>
+        <Text
+          style={{
+            paddingTop: 20,
+            paddingLeft: 10,
+            fontWeight: 700,
+            fontSize: 16,
+          }}>
+          {data.Term ? data.Term : data.Abbreviation}
+        </Text>
+        <Text style={{ paddingLeft: 10, fontSize: 12, color: "gray" }}>
+          {data.Usage}
         </Text>
         <Text style={styles.term}>
           {data.Definition ? data.Definition : data["Full Form"]}
@@ -29,6 +43,7 @@ const styles = StyleSheet.create({
   term: {
     paddingTop: 20,
     paddingLeft: 10,
+    lineHeight: 17,
   },
 });
 export default Card;

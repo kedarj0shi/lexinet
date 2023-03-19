@@ -1,7 +1,7 @@
 import { View, Text, Image, TextInput } from "react-native";
 import React, { useState } from "react";
 import { COLORS, SHADOWS, SIZES } from "../constants/theme";
-import { logo } from "../assets/logo.png";
+
 const Header = (props) => {
   // const [word, setWord] = useState("");
   const handleChange = (e) => {
