@@ -17,6 +17,7 @@ const Card = ({ data }) => {
           width: "100%",
           height: "auto",
           paddingBottom: 20,
+          paddingRight: 5,
         }}>
         <Text
           style={{
@@ -28,7 +29,7 @@ const Card = ({ data }) => {
           {data.Term ? data.Term : data.Abbreviation}
         </Text>
         <Text style={{ paddingLeft: 10, fontSize: 12, color: "gray" }}>
-          {data.Usage}
+          {data.Usage ? data.Usage : data["Domain/Sub-domain"]}
         </Text>
         <Text style={styles.term}>
           {data.Definition ? data.Definition : data["Full Form"]}
@@ -37,8 +38,7 @@ const Card = ({ data }) => {
     </View>
   );
 };
-// abbreviation - height 100
-// term - height 150
+
 const styles = StyleSheet.create({
   term: {
     paddingTop: 20,
