@@ -2,8 +2,8 @@ import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { COLORS, SHADOWS, SIZES } from "../constants/theme";
 import Header from "./Header";
-const Card = ({ data }) => {
-  return (
+const Card = ({ data, isListEmpty, setIsListEmpty }) => {
+  return isListEmpty === false ? (
     <View
       style={{
         backgroundColor: COLORS.white,
@@ -36,6 +36,11 @@ const Card = ({ data }) => {
         </Text>
       </View>
     </View>
+  ) : (
+    <View>
+      {" "}
+      <Image source={require("")} style={{ width: 300, height: 300 }} />{" "}
+    </View>
   );
 };
 
@@ -47,3 +52,7 @@ const styles = StyleSheet.create({
   },
 });
 export default Card;
+
+{
+  /* <View> <Image source={require("../assets/find.svg")} /> </View> */
+}

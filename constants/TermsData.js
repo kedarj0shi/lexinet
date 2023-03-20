@@ -3,7 +3,7 @@ export const terms = {
     {
       Term: "Term",
       Definition:
-        "A method of analysis for human factors established by Elwin Edwards in 1972.  SHEL is the acronym for:\nSoftware:  any non-physical aspect of a system\nHardware:  a machine which a person is trying to control\nEnvironment: the physical environment in which the person is trying to operate\nLiveware:  the person.\nIn the model the liveware is arranged at the center.  The interfaces between liveware and software, hardware and other liveware define the role of human factors. ",
+        "A method of analysis for human factors established by Elwin Edwards in 1972.  SHEL is the acronym for:  Software:  any non-physical aspect of a system  Hardware:  a machine which a person is trying to control  Environment: the physical environment in which the person is trying to operate  Liveware:  the person.  In the model the liveware is arranged at the center.  The interfaces between liveware and software, hardware and other liveware define the role of human factors. ",
       Status: "Approved",
       "Domain/Sub-domain": "Safety and Reliability/General",
       "Definition Source": "AP2616",
@@ -17,7 +17,7 @@ export const terms = {
     },
     {
       Term: "Accept",
-      Definition: "To receive with consent (something given or offered). \n\n",
+      Definition: "To receive with consent (something given or offered).     ",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management Implementation",
       "Definition Source": "WD",
@@ -40,7 +40,7 @@ export const terms = {
     {
       Term: "Accident",
       Definition:
-        'Extract from AP2509 (June 02), Airbus Accident Investigation Policy and Procedure Guide.\n\nICAO Annex 13 (Amendment 9) Definition:\n"An occurrence associated with the operation of an aircraft, which takes place between the time any person boards the aircraft with the intention of flight, until such time as all such persons have disembarked, in which:\na) A person is fatally or seriously injured as a result of\n    a. Being in the aircraft\n    b. Direct contact with any part of the aircraft, including parts which have become detached from the aircraft\n    c. Direct exposure to jet blast\nExcept when the injuries are from natural causes, self-inflicted or inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew, \nor:\nb) The aircraft receives substantial damage or structural failure, which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component (before next flight).\nExcept for engine failure or damage when the damage is limited to the engine, its cowling or accessories; or for damage limited to propellers, wing tips, antenna, tires, brakes, fairing, small dents or puncture holes in the aircraft skin.\nor:\nc) The aircraft is missing or is completely inaccessible.\nNote: The above definition of an accident does not cover all possible events.\n\nAirbus Expanded Accident Definition:\nAirbus has adopted the ICAO definition, but has expanded it beyond aircraft boarding and disembarkation to encompass ground accidents resulting in death or serious injury from aircraft-related causes. In other words, the Airbus definition covers aircraft-related injury or death of passengers, flight and cabin crews, and ground, dispatch, airport, maintenance and cleaning personnel that occur outside of "block times", as well as during any phase of flight operations."',
+        'Extract from AP2509 (June 02), Airbus Accident Investigation Policy and Procedure Guide.    ICAO Annex 13 (Amendment 9) Definition:  "An occurrence associated with the operation of an aircraft, which takes place between the time any person boards the aircraft with the intention of flight, until such time as all such persons have disembarked, in which:  a) A person is fatally or seriously injured as a result of      a. Being in the aircraft      b. Direct contact with any part of the aircraft, including parts which have become detached from the aircraft      c. Direct exposure to jet blast  Except when the injuries are from natural causes, self-inflicted or inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew,   or:  b) The aircraft receives substantial damage or structural failure, which adversely affects the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component (before next flight).  Except for engine failure or damage when the damage is limited to the engine, its cowling or accessories; or for damage limited to propellers, wing tips, antenna, tires, brakes, fairing, small dents or puncture holes in the aircraft skin.  or:  c) The aircraft is missing or is completely inaccessible.  Note: The above definition of an accident does not cover all possible events.    Airbus Expanded Accident Definition:  Airbus has adopted the ICAO definition, but has expanded it beyond aircraft boarding and disembarkation to encompass ground accidents resulting in death or serious injury from aircraft-related causes. In other words, the Airbus definition covers aircraft-related injury or death of passengers, flight and cabin crews, and ground, dispatch, airport, maintenance and cleaning personnel that occur outside of "block times", as well as during any phase of flight operations."',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Unscheduled Occurrences",
       "Definition Source": "AP2509",
@@ -205,7 +205,7 @@ export const terms = {
     {
       Term: "Airbus Ground Operations",
       Definition:
-        "Fleet administration features are supported in particular by the ArGO (Airbus Ground Operations)\nand GDB (Ground Distribution Bridge) products.\nThe ArGO product provides the following functions: \n- User management\no Manage users and access rights \n- A/C Management and Monitoring\no Define A/C\no Administrate and monitor communication means \n- Customisation Management Tool\no Create and save customizations for customisable on-board applications\no Generate A665 packaging \n- A350 and A380 IP communication flows management between ground and aircraft\no Support A350 IMACS keying procedure and monitoring\no Send FLS and messages to A/C\no Follow message status\no Retrieve, store and download IPCOM downlink payloads - A350 and A380 reports management\no Retrieve, store and view A/C configuration\n\no Compute A/C as-flying configuration and compare discrepancies with as-\nexpected configuration\n\no Retrieve, store and view SDT reports \n- FLS repository\no Store ARINC 665 parts, media sets and A827 crates\no Extract FLS, media sets or crates\no Generate media sets\no Check FLS integrity and authenticity",
+        "Fleet administration features are supported in particular by the ArGO (Airbus Ground Operations)  and GDB (Ground Distribution Bridge) products.  The ArGO product provides the following functions:   - User management  o Manage users and access rights   - A/C Management and Monitoring  o Define A/C  o Administrate and monitor communication means   - Customisation Management Tool  o Create and save customizations for customisable on-board applications  o Generate A665 packaging   - A350 and A380 IP communication flows management between ground and aircraft  o Support A350 IMACS keying procedure and monitoring  o Send FLS and messages to A/C  o Follow message status  o Retrieve, store and download IPCOM downlink payloads - A350 and A380 reports management  o Retrieve, store and view A/C configuration    o Compute A/C as-flying configuration and compare discrepancies with as-  expected configuration    o Retrieve, store and view SDT reports   - FLS repository  o Store ARINC 665 parts, media sets and A827 crates  o Extract FLS, media sets or crates  o Generate media sets  o Check FLS integrity and authenticity",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
       "Definition Source":
@@ -214,7 +214,7 @@ export const terms = {
     {
       Term: "Airbus Industrie",
       Definition:
-        "No longer to be used.\nEuropean aircraft manufacturer partnership constituted as a GIE in order to lead and co-ordinate the work relating to the Airbus programs as well as to market and to sell Airbus aircraft.",
+        "No longer to be used.  European aircraft manufacturer partnership constituted as a GIE in order to lead and co-ordinate the work relating to the Airbus programs as well as to market and to sell Airbus aircraft.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -245,7 +245,7 @@ export const terms = {
     {
       Term: "Airbus Operations GmbH",
       Definition:
-        "Airbus Operations Gesellschaft mit beschränkter Haftung (formerly Airbus Deutschland GmbH) . \nOne of the four National Companies.",
+        "Airbus Operations Gesellschaft mit beschränkter Haftung (formerly Airbus Deutschland GmbH) .   One of the four National Companies.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -259,21 +259,21 @@ export const terms = {
     {
       Term: "Airbus Operations S.A.S.",
       Definition:
-        "Airbus Operations Société par Actions Simplifiée (formed from the merger of Airbus France SAS and Airbus Holding SA). \nOne of the four National Companies.",
+        "Airbus Operations Société par Actions Simplifiée (formed from the merger of Airbus France SAS and Airbus Holding SA).   One of the four National Companies.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
     {
       Term: "Airbus Operations S.L.",
       Definition:
-        "Airbus Operations Sociedad Limitada. \nOne of the four National Companies (formerly Airbus España S.L.)",
+        "Airbus Operations Sociedad Limitada.   One of the four National Companies (formerly Airbus España S.L.)",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
     {
       Term: "Airbus Organization",
       Definition:
-        "No longer to be used.\nTerm used to identify the combination of Airbus Industrie and the world wide subsidiaries of Airbus Industrie, together with the Members and Associated Partners of Airbus Industrie.",
+        "No longer to be used.  Term used to identify the combination of Airbus Industrie and the world wide subsidiaries of Airbus Industrie, together with the Members and Associated Partners of Airbus Industrie.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -309,7 +309,7 @@ export const terms = {
     {
       Term: "Airbus Technical Information System",
       Definition:
-        "No longer to be used. \nThis is a computerized information system used to create, store and deliver to customers the technical documentation necessary for the operation, maintenance and repair of aircraft.\nThe system contains information on all aircrafts currently in production.",
+        "No longer to be used.   This is a computerized information system used to create, store and deliver to customers the technical documentation necessary for the operation, maintenance and repair of aircraft.  The system contains information on all aircrafts currently in production.",
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Information Systems",
     },
@@ -339,7 +339,7 @@ export const terms = {
     {
       Term: "Aircraft Communication Addressing and Reporting System over Internet Protocol",
       Definition:
-        "Aircraft Communication Addressing and Reporting System over Internet Protocol (AoIP) system is Board/Ground Communication required by Air Traffic Service Unit (ATSU) can be done through IP canal provided by Flight Operations and MAintenance eXchanger (FOMAX) instead of legacy ATSU communication means. It us used in order to reduce Very High Frequency (VHF)&nbsp;usage (Airports saturation). ",
+        "Aircraft Communication Addressing and Reporting System over Internet Protocol (AoIP) system is Board/Ground Communication required by Air Traffic Service Unit (ATSU) can be done through IP canal provided by Flight Operations and MAintenance eXchanger (FOMAX) instead of legacy ATSU communication means. It us used in order to reduce Very High Frequency (VHF) ;usage (Airports saturation). ",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Definition Source": "G46FM1306103",
@@ -355,7 +355,7 @@ export const terms = {
     {
       Term: "Aircraft Definition",
       Definition:
-        "Data made of validated reference data/information which identifies an aircraft, its functions, characteristics and performance.\n\nBasis for establishment of Aircraft Standard Specification, System Specifications, Technical Design Directives.",
+        "Data made of validated reference data/information which identifies an aircraft, its functions, characteristics and performance.    Basis for establishment of Aircraft Standard Specification, System Specifications, Technical Design Directives.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "ACMR",
@@ -391,7 +391,7 @@ export const terms = {
     {
       Term: "Aircraft Illustrated Parts Catalog",
       Definition:
-        "The Aircraft Illustrated Parts Catalog (AIPC) identifies all the line removable parts of the aircraft (repairable &amp; expendable) such as: \n- Airbus Proprietary Parts \n- Vendor Components \n- Component Breakdown Parts \n- Attaching/Installation Parts. \nIt is used for Line Maintenance and spares planning purposes.",
+        "The Aircraft Illustrated Parts Catalog (AIPC) identifies all the line removable parts of the aircraft (repairable &amp; expendable) such as:   - Airbus Proprietary Parts   - Vendor Components   - Component Breakdown Parts   - Attaching/Installation Parts.   It is used for Line Maintenance and spares planning purposes.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -414,7 +414,7 @@ export const terms = {
     {
       Term: "Aircraft Letter and Aircraft Drawing Set Letter",
       Definition:
-        "The Aircraft Letter (formerly Project Code) is a general code used at an early stage of the aircraft definition by the Engineering organizations to designate and codify a program. 'Aircraft Letter' is NOT used for the numbering of the drawing set and the identification of aircraft items. An Aircraft Drawing Set Letter (formerly Drawing Set Letter) is allocated by the Engineering organization to identify the drawing set and the associated documents for a program. Aircraft Drawing Set Letter IS used for the numbering of the drawing set and the identification of aircraft items. \n\nFamilyFamilyCodeProgramAircraftLetterAircraft Drawing Set Letter&nbsp;Repair&nbsp;W, N, L, P, R, M&nbsp;All-- &nbsp;R&nbsp;Wide BodyWA300A310A310-MRTTA300-600A300-600 STABHCKAA+BCA+BA+B+KSingle AisleNA318A319A320A321A30XPJDEND+ED+ED+ED+ELong RangeLA330A340GFF+GF+GExtra Wide BodyPA350-XWBVV+WDouble DeckerRA380L&nbsp;&nbsp;&nbsp;&nbsp; L+T (1)MilitaryMA400MM&nbsp;&nbsp;&nbsp;&nbsp; M (2)\nNotes : (1) Letter U is reserved for possible A380 drawings overspill but is not yet released.&nbsp;(2) Letter N is reserved for possible A400M drawings overspill but is not yet released for use.",
+        "The Aircraft Letter (formerly Project Code) is a general code used at an early stage of the aircraft definition by the Engineering organizations to designate and codify a program. 'Aircraft Letter' is NOT used for the numbering of the drawing set and the identification of aircraft items. An Aircraft Drawing Set Letter (formerly Drawing Set Letter) is allocated by the Engineering organization to identify the drawing set and the associated documents for a program. Aircraft Drawing Set Letter IS used for the numbering of the drawing set and the identification of aircraft items.     FamilyFamilyCodeProgramAircraftLetterAircraft Drawing Set Letter ;Repair ;W, N, L, P, R, M ;All--  ;R ;Wide BodyWA300A310A310-MRTTA300-600A300-600 STABHCKAA+BCA+BA+B+KSingle AisleNA318A319A320A321A30XPJDEND+ED+ED+ED+ELong RangeLA330A340GFF+GF+GExtra Wide BodyPA350-XWBVV+WDouble DeckerRA380L ; ; ; ; L+T (1)MilitaryMA400MM ; ; ; ; M (2)  Notes : (1) Letter U is reserved for possible A380 drawings overspill but is not yet released. ;(2) Letter N is reserved for possible A400M drawings overspill but is not yet released for use.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
       "Definition Source":
@@ -423,7 +423,7 @@ export const terms = {
     {
       Term: "Aircraft Margin",
       Definition:
-        "A margin is applied as a numerical coefficient to a specified A/C performance or design parameter in order to design an A/C that will meet this performance, even if there are discrepancies between the A/C designed and the A/C build. The design parameter may be at any level of detail below TLAR, and deal with any characteristic of the A/C (whole A/C, part, system, ¿). Margins can also be a means to realise a specific configuration or growth potential (e.g. energy management, IT data capacity, forging sizing etc.).\nA margin is decided from experience, and considered necessary to ensure sufficient robustness of the design. Each margin is a judgement based on cost of the margin (in terms of weight, manufacturability, etc.) balanced against the magnitude of the risk reduction that it would provide (in terms of cost/time/probability, etc., to introduce a modification).\nMargins are used in the design process to cover uncertainties in requirements definition or in design data. Margins should never replace requirements. Later in the design process, as requirements and design data become more firm, the margins can often be reduced or eliminated",
+        "A margin is applied as a numerical coefficient to a specified A/C performance or design parameter in order to design an A/C that will meet this performance, even if there are discrepancies between the A/C designed and the A/C build. The design parameter may be at any level of detail below TLAR, and deal with any characteristic of the A/C (whole A/C, part, system, ¿). Margins can also be a means to realise a specific configuration or growth potential (e.g. energy management, IT data capacity, forging sizing etc.).  A margin is decided from experience, and considered necessary to ensure sufficient robustness of the design. Each margin is a judgement based on cost of the margin (in terms of weight, manufacturability, etc.) balanced against the magnitude of the risk reduction that it would provide (in terms of cost/time/probability, etc., to introduce a modification).  Margins are used in the design process to cover uncertainties in requirements definition or in design data. Margins should never replace requirements. Later in the design process, as requirements and design data become more firm, the margins can often be reduced or eliminated",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "AP5229",
@@ -471,14 +471,14 @@ export const terms = {
     {
       Term: "Aircraft Technical Logbook",
       Definition:
-        "Official document on which, after a test, the flight crew reports:\n\n- all anomalies encountered during the test,\n- all maintenance actions to be performed.\n\nIt is the main communication tool between the flight and the maintenance crews.\n\nPrior to dispatch the flight crew accepts the technical state of the aircraft by signing the logbook, which is then carried on board during all flights. A copy remains on ground.",
+        "Official document on which, after a test, the flight crew reports:    - all anomalies encountered during the test,  - all maintenance actions to be performed.    It is the main communication tool between the flight and the maintenance crews.    Prior to dispatch the flight crew accepts the technical state of the aircraft by signing the logbook, which is then carried on board during all flights. A copy remains on ground.",
       Status: "Approved",
       "Domain/Sub-domain": "Flight Test/Activity",
     },
     {
       Term: "Aircraft Technical Specification",
       Definition:
-        "No longer to be used.\nReplaced by Customized Specification for new Aircraft Projects.",
+        "No longer to be used.  Replaced by Customized Specification for new Aircraft Projects.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
     },
@@ -501,7 +501,7 @@ export const terms = {
     {
       Term: "Air deflector",
       Definition:
-        "The air deflectors are windbreaks, attached to the side of the&nbsp;aircraft in front of the paratrooper doors. The air deflector elements ensure a safe aerial delivery of paratroopers by spoiling the air stream in the region of the paratrooper doors. The air deflector is deployed by a hydraulic actuator and moves on two hinges.",
+        "The air deflectors are windbreaks, attached to the side of the ;aircraft in front of the paratrooper doors. The air deflector elements ensure a safe aerial delivery of paratroopers by spoiling the air stream in the region of the paratrooper doors. The air deflector is deployed by a hydraulic actuator and moves on two hinges.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Flight Operations",
       "Definition Source": "PSSA Draft - Issue1 - M5230RP0510417",
@@ -509,7 +509,7 @@ export const terms = {
     {
       Term: "Airframe Structure Health Monitoring",
       Definition:
-        "The Airframe Structure Health Monitoring (ASHM) sensors is part of the Recording &amp; Maintenance function of the aircraft. It enables the\ninspection of specific points of the structure through embedded sensors, to avoid the access to the inspection area by the line mechanic.",
+        "The Airframe Structure Health Monitoring (ASHM) sensors is part of the Recording &amp; Maintenance function of the aircraft. It enables the  inspection of specific points of the structure through embedded sensors, to avoid the access to the inspection area by the line mechanic.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source":
@@ -577,7 +577,7 @@ export const terms = {
     {
       Term: "All Operator Telex",
       Definition:
-        "An AOT is used to launch very urgent action which is required to be taken by the Operators concerned due to an event/finding which has implication on the airworthiness of the affected Airbus aircraft or due to an event which has serious operational impact.  The action is to be performed within a few days or a few weeks from receipt of the AOT.  For such cases, the AOT is the fastest possible means of communication.\n\nThe content of an AOT may later be rendered mandatory by the Airworthiness Authorities through a Consigne de Navigabilité (CN) or an Airworthiness Directive (AD), but even if this is not the case, the AOT is considered by Airbus to be a mandatory action.\n\nThe AOT is sent to the Engineering/Maintenance department of the Operators concerned (ie: all operators having the same type of aircraft, or having the same type of engine in the case of an AOT linked to power plant.\n\nWhere an AOT may have a repercussion on flight operations, the Flight Operations department of the Operator is addressed by means of a Flight Operations Telex (FOT).",
+        "An AOT is used to launch very urgent action which is required to be taken by the Operators concerned due to an event/finding which has implication on the airworthiness of the affected Airbus aircraft or due to an event which has serious operational impact.  The action is to be performed within a few days or a few weeks from receipt of the AOT.  For such cases, the AOT is the fastest possible means of communication.    The content of an AOT may later be rendered mandatory by the Airworthiness Authorities through a Consigne de Navigabilité (CN) or an Airworthiness Directive (AD), but even if this is not the case, the AOT is considered by Airbus to be a mandatory action.    The AOT is sent to the Engineering/Maintenance department of the Operators concerned (ie: all operators having the same type of aircraft, or having the same type of engine in the case of an AOT linked to power plant.    Where an AOT may have a repercussion on flight operations, the Flight Operations department of the Operator is addressed by means of a Flight Operations Telex (FOT).",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Definition Evolution Implementation",
@@ -587,14 +587,14 @@ export const terms = {
     {
       Term: "Alteration",
       Definition:
-        "Any&nbsp;change or repair to an aircraft, aircraft engine or propeller, due to a specific request,&nbsp;which makes it different from the originally type certificated product.",
+        "Any ;change or repair to an aircraft, aircraft engine or propeller, due to a specific request, ;which makes it different from the originally type certificated product.",
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
     },
     {
       Term: "Alternate Item",
       Definition:
-        "In context of Technical Publications domain, an item which fully meets required functional and structural specifications, but differs either in overall external dimensions, connections, installations and/or mounting provisions and requires additional parts, rework or modification to install in a specific application.\n\nAlternate procedures fully meet the required maintenance specifications, but may require additional documentation, training, manning, special tooling and/or test equipment.",
+        "In context of Technical Publications domain, an item which fully meets required functional and structural specifications, but differs either in overall external dimensions, connections, installations and/or mounting provisions and requires additional parts, rework or modification to install in a specific application.    Alternate procedures fully meet the required maintenance specifications, but may require additional documentation, training, manning, special tooling and/or test equipment.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Interchangeability",
       "Definition Source": "WATOG",
@@ -616,7 +616,7 @@ export const terms = {
     {
       Term: "Applicability",
       Definition:
-        "Applicability designates the common features of the aircraft, which are in the scope of the change. \nExamples:\n- The Production standards that have to be covered (All, ST1, STA, etc.), \n- Version aircraft having a particular technical features (e.g. Messier brakes), \n- The aircraft on which a specific modification is applied,\n- The aircraft delivered before a specific date",
+        "Applicability designates the common features of the aircraft, which are in the scope of the change.   Examples:  - The Production standards that have to be covered (All, ST1, STA, etc.),   - Version aircraft having a particular technical features (e.g. Messier brakes),   - The aircraft on which a specific modification is applied,  - The aircraft delivered before a specific date",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Modification Allocation",
@@ -646,7 +646,7 @@ export const terms = {
     {
       Term: "Approach Stabilization Monitor",
       Definition:
-        "The function Approach Stabilization Monitor (APPSM) is an ADVISORY which provides attention getting to the flight crew on speed and/or height excess when the aircraft is in final approach and such excess is predicted to jeopardize aircraft stabilization (within a given window) at stabilization height.&nbsp;",
+        "The function Approach Stabilization Monitor (APPSM) is an ADVISORY which provides attention getting to the flight crew on speed and/or height excess when the aircraft is in final approach and such excess is predicted to jeopardize aircraft stabilization (within a given window) at stabilization height. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source": "X34RQ1901531",
@@ -654,7 +654,7 @@ export const terms = {
     {
       Term: "Approve",
       Definition:
-        "A- To express often formally agreement with and support of or commendation of as meeting a standard. \nB- To vote into effect.",
+        "A- To express often formally agreement with and support of or commendation of as meeting a standard.   B- To vote into effect.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management Implementation",
       "Definition Source": "WD",
@@ -678,7 +678,7 @@ export const terms = {
     {
       Term: "As a Set (Interchangeability)",
       Definition:
-        'When used in conjunction with interchangeability : \n- a set is composed of several identical parts (with same Part Number, PN) which have to operate in common to obtain the expected function (for a set comprised of more than one PN, ATA code 5 applies)\n- "interchangeability as a set" (ATA code 4) states that if one part (PN A) of a set is not replaced by a PN A but by a different part (PN B), all the other PN A\'s of the set have to be replaced simultaneously with the PN B .(in a set, mixability is not allowed) ',
+        'When used in conjunction with interchangeability :   - a set is composed of several identical parts (with same Part Number, PN) which have to operate in common to obtain the expected function (for a set comprised of more than one PN, ATA code 5 applies)  - "interchangeability as a set" (ATA code 4) states that if one part (PN A) of a set is not replaced by a PN A but by a different part (PN B), all the other PN A\'s of the set have to be replaced simultaneously with the PN B .(in a set, mixability is not allowed) ',
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Interchangeability",
     },
@@ -718,7 +718,7 @@ export const terms = {
     {
       Term: "Associated Partner",
       Definition:
-        "No longer to be used.\nCompany involved in the Airbus Program having financially contributed to the aircraft development eg: BELAIRBUS-Belgium, FOKKER-Netherlands but which is not part of Airbus Group.",
+        "No longer to be used.  Company involved in the Airbus Program having financially contributed to the aircraft development eg: BELAIRBUS-Belgium, FOKKER-Netherlands but which is not part of Airbus Group.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -733,7 +733,7 @@ export const terms = {
     {
       Term: "ATSU Routing Function",
       Definition:
-        "A/g communication services are provided by the ATSU Routing Function (ARF) which is performed by both:\n- An ACARS router; \n- A VDL2 module.",
+        "A/g communication services are provided by the ATSU Routing Function (ARF) which is performed by both:  - An ACARS router;   - A VDL2 module.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "SDD 4624SF; SA46D11013097 Issue 3",
@@ -756,7 +756,7 @@ export const terms = {
     {
       Term: "Automatic CMS Dump Function",
       Definition:
-        "The Automatic CMS Dump Function (ACDF) aims to provide an extract of the Central Maintenance System (CMS) database at the end of each\nflight, through the communication mean available (WIFI or SATCOM).",
+        "The Automatic CMS Dump Function (ACDF) aims to provide an extract of the Central Maintenance System (CMS) database at the end of each  flight, through the communication mean available (WIFI or SATCOM).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Definition Source": "L45RE2002953",
@@ -837,7 +837,7 @@ export const terms = {
     {
       Term: "Backlit Panel",
       Definition:
-        "The Backlit Panel is a customized light panel with illuminated panel. This panel is installed in the Cabin center. &nbsp;",
+        "The Backlit Panel is a customized light panel with illuminated panel. This panel is installed in the Cabin center.  ;",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General",
@@ -854,14 +854,14 @@ export const terms = {
     {
       Term: "Basic Build Status",
       Definition:
-        "Highest status of an aircraft or aircraft section which is launched in production where no allocation can be foreseen.\n\nA Basic Build Status is capable of accepting, within a reasonable leadtime and Cost, Pre-Defined or Pre-Designed Technical solutions.",
+        "Highest status of an aircraft or aircraft section which is launched in production where no allocation can be foreseen.    A Basic Build Status is capable of accepting, within a reasonable leadtime and Cost, Pre-Defined or Pre-Designed Technical solutions.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Aircraft Build Definition",
     },
     {
       Term: "Basic Configuration Definition",
       Definition:
-        "For Aircraft, this is the compilation of decisions which result in a Specific Aircraft Definition:\n      * Type,\n      * Series,\n      * Model.\n\nThe Aircraft is flyable and certificatable.\n\nThe result is compiled in an A/C Standard Specification.\n\n- For Products, their definition is recorded in the corresponding Technical Specification and they are qualified as part of the aircraft certification procedure.",
+        "For Aircraft, this is the compilation of decisions which result in a Specific Aircraft Definition:        * Type,        * Series,        * Model.    The Aircraft is flyable and certificatable.    The result is compiled in an A/C Standard Specification.    - For Products, their definition is recorded in the corresponding Technical Specification and they are qualified as part of the aircraft certification procedure.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source": "ACMR",
@@ -934,7 +934,7 @@ export const terms = {
     {
       Term: "Block Hours",
       Definition:
-        "The number of hours incurred by an airplane from the moment it first moves for a flight until it comes to rest at its intended blocks at the next point of landing, or returns to its departure point prior to takeoff.\n\nNote: Push-out from the gate is considered as part of block hours.",
+        "The number of hours incurred by an airplane from the moment it first moves for a flight until it comes to rest at its intended blocks at the next point of landing, or returns to its departure point prior to takeoff.    Note: Push-out from the gate is considered as part of block hours.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
       "Definition Source": "WATOG",
@@ -942,7 +942,7 @@ export const terms = {
     {
       Term: "Booked Amount",
       Definition:
-        "Sum of capitalized assets entered into service in the accounting reporting data system year-to-date. Booked amount refers to yearly registration.\nComments :\n- The registration date is the entry into service date.\n- The registration date starts depreciation.",
+        "Sum of capitalized assets entered into service in the accounting reporting data system year-to-date. Booked amount refers to yearly registration.  Comments :  - The registration date is the entry into service date.  - The registration date starts depreciation.",
       Status: "Approved",
       "Domain/Sub-domain": "Finance/General",
       "Definition Source":
@@ -958,14 +958,14 @@ export const terms = {
     {
       Term: "Broker",
       Definition:
-        "Individual or company that buys Used Aircraft parts and sells them&nbsp;on to airlines, operators, or maintenance organizations.",
+        "Individual or company that buys Used Aircraft parts and sells them ;on to airlines, operators, or maintenance organizations.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Suppliers",
     },
     {
       Term: "Budget",
       Definition:
-        "A - The amount of money available, required or assigned to a particular purpose in or as if in a budget. \nB - To plan expenditure for...",
+        "A - The amount of money available, required or assigned to a particular purpose in or as if in a budget.   B - To plan expenditure for...",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Commercial",
       "Definition Source": "WD",
@@ -997,7 +997,7 @@ export const terms = {
     {
       Term: "Build Status",
       Definition:
-        "Real Technical situation of an aircraft at any time.  \nResults from the various steps in aircraft life with reference to a determined configuration definition during its production and after delivery life.",
+        "Real Technical situation of an aircraft at any time.    Results from the various steps in aircraft life with reference to a determined configuration definition during its production and after delivery life.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Aircraft Build Definition",
     },
@@ -1025,14 +1025,14 @@ export const terms = {
     {
       Term: "Buyer",
       Definition:
-        "Person (or entity) who commits to pay a certain price against delivery of goods or services under a Purchase Agreement.\nNote: This term is used when referring to the customers of Airbus. (eg: Buyer Furnished Equipment, BFE). \nDo not use Purchaser in this context.",
+        "Person (or entity) who commits to pay a certain price against delivery of goods or services under a Purchase Agreement.  Note: This term is used when referring to the customers of Airbus. (eg: Buyer Furnished Equipment, BFE).   Do not use Purchaser in this context.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus - Aircraft Buyer Relationships",
     },
     {
       Term: "Buyer Furnished Equipment",
       Definition:
-        "Product registered in the Airbus Buyer Furnished Equipment catalogue that is technically qualified.&nbsp;The product is procured by the Airbus Purchaser and integrated by Airbus.",
+        "Product registered in the Airbus Buyer Furnished Equipment catalogue that is technically qualified. ;The product is procured by the Airbus Purchaser and integrated by Airbus.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Specialized Glossary": "Project Management",
@@ -1068,7 +1068,7 @@ export const terms = {
     {
       Term: "Cabin Furnishings",
       Definition:
-        "Consist of all the parts/equipment that make up the Passenger Cabin eg:\n- side wall/door panels,\n- ceiling panels,\n- overhead stowage compartments,\n- carpets/curtains,\n- lavatories and their system adaptation kit,\n- galleys and their system adaptation kit,\n- passenger/attendant seats and associated systems,\n- partitions,\n- stowages,\n- emergency equipment.",
+        "Consist of all the parts/equipment that make up the Passenger Cabin eg:  - side wall/door panels,  - ceiling panels,  - overhead stowage compartments,  - carpets/curtains,  - lavatories and their system adaptation kit,  - galleys and their system adaptation kit,  - passenger/attendant seats and associated systems,  - partitions,  - stowages,  - emergency equipment.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Aircraft Build Definition",
     },
@@ -1088,7 +1088,7 @@ export const terms = {
     {
       Term: "Capital Expenditure",
       Definition:
-        "The Capital Expenditure (CAPEX) includes all expenses which are capitalized according to International Accounting Standard (IAS GAAP).\nThese expenses are fixed assets which are depreciated over more than one year. It represents those assets not intended for sale, which are used to design and manufacture the product, display it, warehouse it and transport it : lands and buildings, machinery and equipment, jigs and tools, IT equipment and intangible assets. It does not include :\n- financial assets,\n- used aircraft,\n- goodwill and fair value adjutments.\nThe definition is also applicable to leased or rented assets.",
+        "The Capital Expenditure (CAPEX) includes all expenses which are capitalized according to International Accounting Standard (IAS GAAP).  These expenses are fixed assets which are depreciated over more than one year. It represents those assets not intended for sale, which are used to design and manufacture the product, display it, warehouse it and transport it : lands and buildings, machinery and equipment, jigs and tools, IT equipment and intangible assets. It does not include :  - financial assets,  - used aircraft,  - goodwill and fair value adjutments.  The definition is also applicable to leased or rented assets.",
       Status: "Approved",
       "Domain/Sub-domain": "Finance/General",
       "Definition Source":
@@ -1104,7 +1104,7 @@ export const terms = {
     {
       Term: "Cash Accounted",
       Definition:
-        'For actuals, Cash Accounted is the sum of invoices registered as capitalized fixed assets in the accounting reporting data system year-to-date.\nFor planning and budget, Cash Accounted is the amount of invoices (including down payments and assets under construction) expected to be registered as fixed assets in the data system during the current year.\nComments : \n- This amount is the same as "purchase of fixed assets" in the cash flow statement (without financial assets and used aircraft).\n- For capitalized internal costs, Cash Accounted is the registered year-to-date amount.',
+        'For actuals, Cash Accounted is the sum of invoices registered as capitalized fixed assets in the accounting reporting data system year-to-date.  For planning and budget, Cash Accounted is the amount of invoices (including down payments and assets under construction) expected to be registered as fixed assets in the data system during the current year.  Comments :   - This amount is the same as "purchase of fixed assets" in the cash flow statement (without financial assets and used aircraft).  - For capitalized internal costs, Cash Accounted is the registered year-to-date amount.',
       Status: "Approved",
       "Domain/Sub-domain": "Finance/General",
       "Definition Source":
@@ -1129,7 +1129,7 @@ export const terms = {
     {
       Term: "Center Flight Crew Rest Compartment",
       Definition:
-        "The purpose of the Center Flight Crew Rest Compartment is to provide a comfortable rest and\nrelax area for two flight crew members on long range flights.\nThe Center Flight Crew Rest Compartment will consist of two bunks, located in the crown area,\nabove the Galaccess ( G1A).",
+        "The purpose of the Center Flight Crew Rest Compartment is to provide a comfortable rest and  relax area for two flight crew members on long range flights.  The Center Flight Crew Rest Compartment will consist of two bunks, located in the crown area,  above the Galaccess ( G1A).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "V2551SP1800803 issue 03",
@@ -1152,14 +1152,14 @@ export const terms = {
     {
       Term: "Certificate of Airworthiness for Export",
       Definition:
-        'As "Certification of Airworthiness" but issued exclusively for aircraft to be exported. \nIt is not a "permit to Fly". It is the basis on which the Certificate of Airworthiness of the country of Registration is issued. For all Airbus products it is issued by the European Aviation Safety Agency.',
+        'As "Certification of Airworthiness" but issued exclusively for aircraft to be exported.   It is not a "permit to Fly". It is the basis on which the Certificate of Airworthiness of the country of Registration is issued. For all Airbus products it is issued by the European Aviation Safety Agency.',
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
     },
     {
       Term: "Certification",
       Definition:
-        "Task of conducting the activities which require detailed agreement between:\n- Airworthiness Authorities and Airbus,\n- Airbus Certification Airworthiness Authorities and other Authorities (activities of witnessing and surveillance),\n- Airbus Central Entity, NatCos, Suppliers,\nto obtain a Type Certificate, or a Certificate of Airworthiness.",
+        "Task of conducting the activities which require detailed agreement between:  - Airworthiness Authorities and Airbus,  - Airbus Certification Airworthiness Authorities and other Authorities (activities of witnessing and surveillance),  - Airbus Central Entity, NatCos, Suppliers,  to obtain a Type Certificate, or a Certificate of Airworthiness.",
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
       "Specialized Glossary": "Retention and Archiving",
@@ -1175,7 +1175,7 @@ export const terms = {
     {
       Term: "Certification Card",
       Definition:
-        "A Certification Card is established for each Certification flight test. It includes:\n\n- details of test conditions,\n- substantiation of test results,\n- statement of compliance with the applicable regulation.\n\nIt is signed by the Airworthiness Authorities.",
+        "A Certification Card is established for each Certification flight test. It includes:    - details of test conditions,  - substantiation of test results,  - statement of compliance with the applicable regulation.    It is signed by the Airworthiness Authorities.",
       Status: "Approved",
       "Domain/Sub-domain": "Flight Test/Certification",
     },
@@ -1196,7 +1196,7 @@ export const terms = {
     {
       Term: "Certification Identification",
       Definition:
-        'Each aircraft is subject to a Certification Process and as such a certification identifier is allocated to it.\nThe Certification Identification is governed and recorded in "Aircraft Certification Register - Airbus Industrie Nomenclature". eg: A310-300, A320-200.',
+        'Each aircraft is subject to a Certification Process and as such a certification identifier is allocated to it.  The Certification Identification is governed and recorded in "Aircraft Certification Register - Airbus Industrie Nomenclature". eg: A310-300, A320-200.',
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
     },
@@ -1345,7 +1345,7 @@ export const terms = {
     {
       Term: "Committed Amount",
       Definition:
-        "For actuals, Committed Amount is the sum of purchase orders registered in the accounting reporting data system year-to-date.\nFor planning and budget, Committed Amount is the sum of expected purchase orders to be issued during the year.\nComments : \nCommitments do not refer to payment date but to purchase order date and amount.\nBudget commitment is the yearly amount.\nAdditionally, for information and operations follow-up purposes only, project appproval amount is the total amount of the project as submitted to approval through the CAPEX file process.\nFor capitalized internal costs, Committed Amount is the yearly budget.",
+        "For actuals, Committed Amount is the sum of purchase orders registered in the accounting reporting data system year-to-date.  For planning and budget, Committed Amount is the sum of expected purchase orders to be issued during the year.  Comments :   Commitments do not refer to payment date but to purchase order date and amount.  Budget commitment is the yearly amount.  Additionally, for information and operations follow-up purposes only, project appproval amount is the total amount of the project as submitted to approval through the CAPEX file process.  For capitalized internal costs, Committed Amount is the yearly budget.",
       Status: "Approved",
       "Domain/Sub-domain": "Finance/General",
       "Definition Source":
@@ -1389,7 +1389,7 @@ export const terms = {
     {
       Term: "Complexity Level",
       Definition:
-        "In the scope of ABD0200 three levels of Complexity are defined based on the criteria: Complex, Medium and Simple. \nNote: Complexity is not to be mistaken for criticality and does not replace the Development Assurance Level (DAL).",
+        "In the scope of ABD0200 three levels of Complexity are defined based on the criteria: Complex, Medium and Simple.   Note: Complexity is not to be mistaken for criticality and does not replace the Development Assurance Level (DAL).",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "ABD0200",
@@ -1436,7 +1436,7 @@ export const terms = {
     {
       Term: "Computer Managed Instruction",
       Definition:
-        "A Computer-Based Training (CBT) facility which includes:\n- rostering and storing of student information,\n- scheduling of students and resources,\n- computer acquisition and storage of student performance data,\n- data presentation function,\n- decision making function based on analysis of student's performance.",
+        "A Computer-Based Training (CBT) facility which includes:  - rostering and storing of student information,  - scheduling of students and resources,  - computer acquisition and storage of student performance data,  - data presentation function,  - decision making function based on analysis of student's performance.",
       Status: "Approved",
       "Domain/Sub-domain": "Training/General",
     },
@@ -1480,7 +1480,7 @@ export const terms = {
     {
       Term: "Configuration",
       Definition:
-        'Where related to aircraft/products: refer to Configuration in the domain "Aircraft Configuration".\n\nWhere related to electrical drawings/documentation: refer to ABD0004.\n\nWhere related to technical publications: A method of covering variations in an item/equipment using different text within the same 6-digit ATA REF/TOPIC.\neg:  31-44-00  : single weight and balance system;\neg:  31-44-00 config : dual weight and balance system.',
+        'Where related to aircraft/products: refer to Configuration in the domain "Aircraft Configuration".    Where related to electrical drawings/documentation: refer to ABD0004.    Where related to technical publications: A method of covering variations in an item/equipment using different text within the same 6-digit ATA REF/TOPIC.  eg:  31-44-00  : single weight and balance system;  eg:  31-44-00 config : dual weight and balance system.',
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -1496,14 +1496,14 @@ export const terms = {
     {
       Term: "Configuration Change",
       Definition:
-        "Results from the decision to review the Basic Configuration in order to: \n- improve the Product, \n- take into account In-Service Experience.  \nResults in revision to specification (Aircraft/System/Product).",
+        "Results from the decision to review the Basic Configuration in order to:   - improve the Product,   - take into account In-Service Experience.    Results in revision to specification (Aircraft/System/Product).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition Evolution/General",
     },
     {
       Term: "Configuration Classification",
       Definition:
-        "Aircraft Configuration Definition in relation to its Certification Identification system: \n- Type, \n- Series, \n- Model, \n- Variant.",
+        "Aircraft Configuration Definition in relation to its Certification Identification system:   - Type,   - Series,   - Model,   - Variant.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
     },
@@ -1518,7 +1518,7 @@ export const terms = {
     {
       Term: "Configuration Deviation List",
       Definition:
-        "The CDL is a list of outside parts such as small service doors which are allowed to be missing for a limited period of time provided appropriate performance penalties are applied.\n\nThe CDL is part of the Flight Manual (FM) and consequently is an approved document.",
+        "The CDL is a list of outside parts such as small service doors which are allowed to be missing for a limited period of time provided appropriate performance penalties are applied.    The CDL is part of the Flight Manual (FM) and consequently is an approved document.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
     },
@@ -1533,7 +1533,7 @@ export const terms = {
     {
       Term: "Configuration Management",
       Definition:
-        "Technical and organization activities including:\n- configuration identification,\n- configuration control,\n- configuration status accounting,\n- configuration audit.",
+        "Technical and organization activities including:  - configuration identification,  - configuration control,  - configuration status accounting,  - configuration audit.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source": "ACMR",
@@ -1565,7 +1565,7 @@ export const terms = {
     {
       Term: "Consolidation Modification",
       Definition:
-        "A Consolidation Modification is opened to gather already approved modifications in order to facilitate, for administrative purposes, the development continuity of different standards.\nA Consolidation Modification is strictly administrative and no additional work shall be launched under its modification number.\nnote : the creation of new or extension of validity of existing Consolidation Modifications is no longer permitted.",
+        "A Consolidation Modification is opened to gather already approved modifications in order to facilitate, for administrative purposes, the development continuity of different standards.  A Consolidation Modification is strictly administrative and no additional work shall be launched under its modification number.  note : the creation of new or extension of validity of existing Consolidation Modifications is no longer permitted.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition Evolution/General",
       "Definition Source": "ACMR",
@@ -1573,7 +1573,7 @@ export const terms = {
     {
       Term: "Constituents",
       Definition:
-        "In Airbus projects an aircraft is considered to be made of:\n- functions (structure/systems),\n- techniques (to fulfill the functions).\n\nBy techniques is meant:\n- Materials,\n- Standard Items,\n- Non-Standard Items (eg: Equipment),\n- Processes.\n\nThese form the constituents (or parts) of an Airbus.",
+        "In Airbus projects an aircraft is considered to be made of:  - functions (structure/systems),  - techniques (to fulfill the functions).    By techniques is meant:  - Materials,  - Standard Items,  - Non-Standard Items (eg: Equipment),  - Processes.    These form the constituents (or parts) of an Airbus.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -1587,7 +1587,7 @@ export const terms = {
     {
       Term: "Control",
       Definition:
-        "A - To exercise restraining or directing influence over. \nB - To check, test or verify by counter or parallel evidence or experiments: Use Check/Test/Verify.",
+        "A - To exercise restraining or directing influence over.   B - To check, test or verify by counter or parallel evidence or experiments: Use Check/Test/Verify.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management",
       "Definition Source": "WD",
@@ -1610,7 +1610,7 @@ export const terms = {
     {
       Term: "Conversion Instruction",
       Definition:
-        "No longer to be used. Replaced by Service Bulletin.\nA Conversion Instruction (CI) is a Service Bulletin in simplified form.\nContrary to the Service Bulletin, a CI does not show the details of the modification on the A/C; instead it presents the design documents which have been compiled in such a way that only Airbus and/or partners can accomplish the conversion work on the A/C.\n\nAs a matter of principle, Airbus has overall responsibility for the accomplishment of any modification.",
+        "No longer to be used. Replaced by Service Bulletin.  A Conversion Instruction (CI) is a Service Bulletin in simplified form.  Contrary to the Service Bulletin, a CI does not show the details of the modification on the A/C; instead it presents the design documents which have been compiled in such a way that only Airbus and/or partners can accomplish the conversion work on the A/C.    As a matter of principle, Airbus has overall responsibility for the accomplishment of any modification.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Definition Evolution Implementation",
@@ -1708,7 +1708,7 @@ export const terms = {
     {
       Term: "Crash Detection Circuit",
       Definition:
-        "The Crash Detection Circuit is a wire loop&nbsp;connected to the RRU (Recorder Release Unit) and triggers the deployment of the ADFR (Automatic Deployable Flight Recorder) in case of an A/C crash.",
+        "The Crash Detection Circuit is a wire loop ;connected to the RRU (Recorder Release Unit) and triggers the deployment of the ADFR (Automatic Deployable Flight Recorder) in case of an A/C crash.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "Automatic Deployable Flight Recorder Specification",
@@ -1739,7 +1739,7 @@ export const terms = {
     {
       Term: "Customer",
       Definition:
-        "Recipient of a product provided by a supplier. \nNotes:  \n1) In a contractual situation, the customer is called the purchaser.\n2) The customer may be, for example, the ultimate consumer, user, beneficiency or purchaser.\n3) The customer can be either internal or external to the organization.\n\nIn the context of Aircraft Buyer Relationships, a general term used to identify the Buyer or potential Buyer of an aircraft.",
+        "Recipient of a product provided by a supplier.   Notes:    1) In a contractual situation, the customer is called the purchaser.  2) The customer may be, for example, the ultimate consumer, user, beneficiency or purchaser.  3) The customer can be either internal or external to the organization.    In the context of Aircraft Buyer Relationships, a general term used to identify the Buyer or potential Buyer of an aircraft.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Basic Terms",
     },
@@ -1753,7 +1753,7 @@ export const terms = {
     {
       Term: "Customer Effectivity Code",
       Definition:
-        "A letter code identifying the recipient of the aircraft documentation.  \nThis can be:\n- customer code (eg: MSR)\n- group name (eg: ATLAS)\n- group leader code (eg: DLH - FOR ATLAS A300)",
+        "A letter code identifying the recipient of the aircraft documentation.    This can be:  - customer code (eg: MSR)  - group name (eg: ATLAS)  - group leader code (eg: DLH - FOR ATLAS A300)",
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -1800,7 +1800,7 @@ export const terms = {
     {
       Term: "Customized Aircraft",
       Definition:
-        "Basic Build Status completed with options as selected by a Customer and completed with some specific customer modifications to make it: \n- flyable, \n- certificatable, \n- deliverable.",
+        "Basic Build Status completed with options as selected by a Customer and completed with some specific customer modifications to make it:   - flyable,   - certificatable,   - deliverable.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Aircraft Build Definition",
     },
@@ -1842,14 +1842,14 @@ export const terms = {
     {
       Term: "Date",
       Definition:
-        "To avoid confusion and according to the conclusions of the Airbus Reference Language Network, dates shall be written as follows:\n\nDD: number for the day\nMmm: 3 to N letters for the month\nYYYY: number for the year (2 or 4 digits)\n\nEg: 10 April 2003 - 10 Apr 2003 - 10 April 03 - 10 Apr 03 - Apr 03",
+        "To avoid confusion and according to the conclusions of the Airbus Reference Language Network, dates shall be written as follows:    DD: number for the day  Mmm: 3 to N letters for the month  YYYY: number for the year (2 or 4 digits)    Eg: 10 April 2003 - 10 Apr 2003 - 10 April 03 - 10 Apr 03 - Apr 03",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Basic Terms",
     },
     {
       Term: "Dealer",
       Definition:
-        "No longer to be used. Replaced by Broker.\nA company holding stocks of materials and/or parts purchased from a source approved by Airbus Industrie, its Members or Associated Partners for subsequent supply to the AIB Organization in the same condition as when received.",
+        "No longer to be used. Replaced by Broker.  A company holding stocks of materials and/or parts purchased from a source approved by Airbus Industrie, its Members or Associated Partners for subsequent supply to the AIB Organization in the same condition as when received.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Suppliers",
     },
@@ -1913,7 +1913,7 @@ export const terms = {
     {
       Term: "Definition Dossier",
       Definition:
-        "Set of Data/Documents which freeze the technical configuration of an aircraft, or a product, by means of a Drawing Set and Technical Specifications/Standards, taking into account the certification requirements.\n\nThe purpose of the Definition Dossier is to fix the reference status of the definition of the product involved, and to give access to the definition information relative to the reference status.",
+        "Set of Data/Documents which freeze the technical configuration of an aircraft, or a product, by means of a Drawing Set and Technical Specifications/Standards, taking into account the certification requirements.    The purpose of the Definition Dossier is to fix the reference status of the definition of the product involved, and to give access to the definition information relative to the reference status.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Industrialization Dossier",
     },
@@ -1957,7 +1957,7 @@ export const terms = {
     {
       Term: "Deployable Recorder System",
       Definition:
-        "The Deployable Recorder System (DEPRECS)&nbsp;comprises the Automatic Deployable Flight Recorder (ADFR), the Recorder Interface Unit (RIU) and the Cockpit Voice and Data Recorder (CVDR). The ADFR is a deployable and floatable combined data recorder including an ELT function (Emergency Locator Transmitter) capable to receive and record simultaneously voice data and flight data and to transmit in case of an emergency the SAR (Search and Rescue) related information. In case of a crash the unit will be deployed automatically and transmit the SAR related information to the concerned search and rescue teams.",
+        "The Deployable Recorder System (DEPRECS) ;comprises the Automatic Deployable Flight Recorder (ADFR), the Recorder Interface Unit (RIU) and the Cockpit Voice and Data Recorder (CVDR). The ADFR is a deployable and floatable combined data recorder including an ELT function (Emergency Locator Transmitter) capable to receive and record simultaneously voice data and flight data and to transmit in case of an emergency the SAR (Search and Rescue) related information. In case of a crash the unit will be deployed automatically and transmit the SAR related information to the concerned search and rescue teams.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "V3134RP1701629 issue 3",
@@ -1985,7 +1985,7 @@ export const terms = {
     {
       Term: "Design",
       Definition:
-        "Interpretation of requirements expressed in basic Technical Specifications.  \nActivities result in the compilation of Definition Dossier which is used as reference for Manufacturing of the aircraft.",
+        "Interpretation of requirements expressed in basic Technical Specifications.    Activities result in the compilation of Definition Dossier which is used as reference for Manufacturing of the aircraft.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
@@ -2015,7 +2015,7 @@ export const terms = {
     {
       Term: "Design Solution",
       Definition:
-        "A Design Solution is the technical response to a requirement as expressed in a modification. It provides all necessary elements to describe and/or build the solution as required in each considered view. For the Definition Dossier creation, a DS provides a unique BOM (Bill Of Material) for the Configuration Item&nbsp;related to it.",
+        "A Design Solution is the technical response to a requirement as expressed in a modification. It provides all necessary elements to describe and/or build the solution as required in each considered view. For the Definition Dossier creation, a DS provides a unique BOM (Bill Of Material) for the Configuration Item ;related to it.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Design-Engineering/General;Industrialization/Aircraft Build Definition",
@@ -2025,14 +2025,14 @@ export const terms = {
     {
       Term: "Design Standard",
       Definition:
-        "Airbus document that defines the principles to design a product.\nEg: Technical Design Directive, TDD\n      Airbus Directive and Procedure, ABD\n      System Installation Design Principles, SIDP",
+        "Airbus document that defines the principles to design a product.  Eg: Technical Design Directive, TDD        Airbus Directive and Procedure, ABD        System Installation Design Principles, SIDP",
       Status: "Approved",
       "Domain/Sub-domain": "Procedural Documentation/General",
     },
     {
       Term: "Design Standard",
       Definition:
-        "The design standard of an individual aircraft consists of a specific set of modifications, as given by the Airbus Configuration Control data bank, for the aircraft, based on :\n- type definition,\n- modifications in addition to the Type Definition (manufacturer improvements, customization)",
+        "The design standard of an individual aircraft consists of a specific set of modifications, as given by the Airbus Configuration Control data bank, for the aircraft, based on :  - type definition,  - modifications in addition to the Type Definition (manufacturer improvements, customization)",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "AIQI 2.24.014.00",
@@ -2063,7 +2063,7 @@ export const terms = {
     {
       Term: "Detailed Visual Inspection",
       Definition:
-        "No longer to be used. \nSee definitions of other Inspections in this domain.",
+        "No longer to be used.   See definitions of other Inspections in this domain.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General",
@@ -2086,7 +2086,7 @@ export const terms = {
     {
       Term: "Deviation",
       Definition:
-        "Term used to indicate that a Definition Dossier is not in compliance with:  \n- the applicable Directives/Procedures, \n- or with the applicable Aircraft Design and Certification Objectives/Requirements.",
+        "Term used to indicate that a Definition Dossier is not in compliance with:    - the applicable Directives/Procedures,   - or with the applicable Aircraft Design and Certification Objectives/Requirements.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
@@ -2118,7 +2118,7 @@ export const terms = {
     {
       Term: "Digital Radio and Audio Integrating Management System",
       Definition:
-        "The Digital Radio and Audio Integrating Management System (DRAIMS) is a new integrated system which hosts the radio and audio management functions, by introducing digital audio technology and new generation of control panels.&nbsp;",
+        "The Digital Radio and Audio Integrating Management System (DRAIMS) is a new integrated system which hosts the radio and audio management functions, by introducing digital audio technology and new generation of control panels. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
       "Definition Source": "V2350ME2125337 issue 1.0",
@@ -2154,7 +2154,7 @@ export const terms = {
     {
       Term: "Dispatch Reliability",
       Definition:
-        "Dispatch Reliability (DR) is the percentage of scheduled flights which depart without incurring a (technical) ground interruption. Ground interruptions are flight dispatch delays greater than 15 minutes and flight cancellations.\nDispatch Reliability performance is used in:\n- Engineering (Supportability and Safety) and Program organization to make DR performance prediction against targets during the design process of new aircraft,\n-Customer Services organization to measure DR performance for In-Service aircraft and propose modifications to improve it.",
+        "Dispatch Reliability (DR) is the percentage of scheduled flights which depart without incurring a (technical) ground interruption. Ground interruptions are flight dispatch delays greater than 15 minutes and flight cancellations.  Dispatch Reliability performance is used in:  - Engineering (Supportability and Safety) and Program organization to make DR performance prediction against targets during the design process of new aircraft,  -Customer Services organization to measure DR performance for In-Service aircraft and propose modifications to improve it.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
       "Definition Source": "Monthly Service Report",
@@ -2170,7 +2170,7 @@ export const terms = {
     {
       Term: "Diversification Code",
       Definition:
-        "Theses codes identify the Airbus legacy aircraft and the main diversification activities managed by BZ and conducted across the Airbus Centers of Excellence. They are used in Information Systems to classify the data or documents associated with these aircraft. \n\nLegacy Aircraft codes :\nFamilyCodeTransallTRCorvetteSNNord 262NNBAC 1-11BAHFB320HFOther Aged A/CAA\nDiversification Aircraft codes :\nFamilyCodeATL1 and 2ZBATRZSEurofighterZEHawkerZHMirage 2000ZMNimrodZNFALCON F7XZF\n\nCaution: HFB320 is not a live A/C",
+        "Theses codes identify the Airbus legacy aircraft and the main diversification activities managed by BZ and conducted across the Airbus Centers of Excellence. They are used in Information Systems to classify the data or documents associated with these aircraft.     Legacy Aircraft codes :  FamilyCodeTransallTRCorvetteSNNord 262NNBAC 1-11BAHFB320HFOther Aged A/CAA  Diversification Aircraft codes :  FamilyCodeATL1 and 2ZBATRZSEurofighterZEHawkerZHMirage 2000ZMNimrodZNFALCON F7XZF    Caution: HFB320 is not a live A/C",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
       "Definition Source": "Didier Joint / François Lefebvre",
@@ -2192,7 +2192,7 @@ export const terms = {
     {
       Term: "Domestic",
       Definition:
-        "No longer to be used.\nGeneral adjective used to indicate that the subject is an internal Airbus Organization one.",
+        "No longer to be used.  General adjective used to indicate that the subject is an internal Airbus Organization one.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -2206,7 +2206,7 @@ export const terms = {
     {
       Term: "Dummy Parts",
       Definition:
-        "Parts which are installed in lieu of aircraft parts, such as dummy Floor Panels, pending a definitive decision about the final aircraft configuration.\n\nThese have to be considered as Tooling but may be installed to allow the aircraft to be flown in some instances.",
+        "Parts which are installed in lieu of aircraft parts, such as dummy Floor Panels, pending a definitive decision about the final aircraft configuration.    These have to be considered as Tooling but may be installed to allow the aircraft to be flown in some instances.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -2220,7 +2220,7 @@ export const terms = {
     {
       Term: "Eddy Dissipation Rate",
       Definition:
-        "The Eddy Dissipation Rate is the selected metric to assess\nturbulence severity.",
+        "The Eddy Dissipation Rate is the selected metric to assess  turbulence severity.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
       "Definition Source": "X46SP2102653 issue 1",
@@ -2234,7 +2234,7 @@ export const terms = {
     {
       Term: "Effectivity",
       Definition:
-        "The effectivity is originated from the MP/Mod validity (expressed in Standard(s), Industrial Standard(s) and/or Versions, modification category and the embodiment points) and calculated from the relevant Aircraft Allocation Table.\nThis definition is applicable to any technical information managed at MSN level.",
+        "The effectivity is originated from the MP/Mod validity (expressed in Standard(s), Industrial Standard(s) and/or Versions, modification category and the embodiment points) and calculated from the relevant Aircraft Allocation Table.  This definition is applicable to any technical information managed at MSN level.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Modification Allocation",
@@ -2281,7 +2281,7 @@ export const terms = {
     {
       Term: "Embedded Wireless Controller",
       Definition:
-        "The Embedded Wireless Controller (EWC) is running on an access point and can manage different other access points and clients.&nbsp;",
+        "The Embedded Wireless Controller (EWC) is running on an access point and can manage different other access points and clients. ;",
       Status: "Approved",
       "Definition Source": "ECYE-8245/18",
     },
@@ -2331,14 +2331,14 @@ export const terms = {
     {
       Term: "Engineering Coordination Memorandum ",
       Definition:
-        "The ECM is a means by which correspondence is recorded between Airbus and Subcontract company/Supplier for the exchange of technical information is recorded.\nAn ECM:\n- records the event of the exchange of information between Airbus and a Subcontractor /Supplier,\n- is the cover sheet to any original or amended technical document,\n- has a unique Airbus reference number provided by the Airbus Document Numbering Service (ADNS), or a local equivalent,\n- is managed in an appropriate register and/or Document Management System.\n\nAn ECM:\n- shall not contain in its text, information that would normally be issued via a technical document (e.g. Technical Memorandum, Technical Report etc.). The exception to this is clarification of a technical point (e.g. a technical discussion regarding technical data contained in a technical document, manual etc.),\n- may be up-issued, or a new ECM raised, dependent on the ECM process being employed, when a technical document that has been the subject of an ECM (Technical Report etc.) is up-issued,  \n- shall not be used internally in Airbus between Engineering Centers, Disciplines, or Programs etc., or between NatCos.",
+        "The ECM is a means by which correspondence is recorded between Airbus and Subcontract company/Supplier for the exchange of technical information is recorded.  An ECM:  - records the event of the exchange of information between Airbus and a Subcontractor /Supplier,  - is the cover sheet to any original or amended technical document,  - has a unique Airbus reference number provided by the Airbus Document Numbering Service (ADNS), or a local equivalent,  - is managed in an appropriate register and/or Document Management System.    An ECM:  - shall not contain in its text, information that would normally be issued via a technical document (e.g. Technical Memorandum, Technical Report etc.). The exception to this is clarification of a technical point (e.g. a technical discussion regarding technical data contained in a technical document, manual etc.),  - may be up-issued, or a new ECM raised, dependent on the ECM process being employed, when a technical document that has been the subject of an ECM (Technical Report etc.) is up-issued,    - shall not be used internally in Airbus between Engineering Centers, Disciplines, or Programs etc., or between NatCos.",
       Status: "Approved",
       "Domain/Sub-domain": "Documentation Templates/General",
     },
     {
       Term: "enhanced Airborne Data Loader",
       Definition:
-        "The enhanced Airborne Data Loader (eADL) is a cockpit-mounted avionics device (in replacement&nbsp;of the&nbsp;MDDU) that provides for software uploading of ARINC 615-3 and ARINC 665compatible loadable software parts.",
+        "The enhanced Airborne Data Loader (eADL) is a cockpit-mounted avionics device (in replacement ;of the ;MDDU) that provides for software uploading of ARINC 615-3 and ARINC 665compatible loadable software parts.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source":
@@ -2355,7 +2355,7 @@ export const terms = {
     {
       Term: "Entity per Aircraft Change",
       Definition:
-        "This is a set of potential or already developed functions which is recorded in the ACC database. An EPAC item records a basic or customized operational function for the aircraft, or a Standard evolution.\neg: the introduction of a QAR.",
+        "This is a set of potential or already developed functions which is recorded in the ACC database. An EPAC item records a basic or customized operational function for the aircraft, or a Standard evolution.  eg: the introduction of a QAR.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
     },
@@ -2378,7 +2378,7 @@ export const terms = {
     {
       Term: "Equivalence",
       Definition:
-        "Relates to the demonstrated compliance between two or more documents/Technical Specifications/Standards/Norms.\n\nWhen this term is applied to products it means that products have been produced in compliance with Technical Specifications which have been declared equivalent.",
+        "Relates to the demonstrated compliance between two or more documents/Technical Specifications/Standards/Norms.    When this term is applied to products it means that products have been produced in compliance with Technical Specifications which have been declared equivalent.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
@@ -2400,21 +2400,21 @@ export const terms = {
     {
       Term: "Estimated Time of Arrival",
       Definition:
-        "The ETA is an advance estimate of the arrival time of an aircraft at an airport.\nSee Actual Time of Arrival.",
+        "The ETA is an advance estimate of the arrival time of an aircraft at an airport.  See Actual Time of Arrival.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Flight Operations",
     },
     {
       Term: "Estimated Time of Departure",
       Definition:
-        "The ETD is an advance estimate of the departure time of an aircraft from an airport.\nSee Actual Time of Departure.",
+        "The ETD is an advance estimate of the departure time of an aircraft from an airport.  See Actual Time of Departure.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Flight Operations",
     },
     {
       Term: "Ethernet Network Adapter",
       Definition:
-        "The Ethernet Network Adapter (ENA)&nbsp;is used for transmitting Ethernet frames over two wires. Usually, the ENA provides the FADEC with the possibility to send maintenance data to FOMAX on A/Cs where the Ethernet link is missing.",
+        "The Ethernet Network Adapter (ENA) ;is used for transmitting Ethernet frames over two wires. Usually, the ENA provides the FADEC with the possibility to send maintenance data to FOMAX on A/Cs where the Ethernet link is missing.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "PTS SA46SP1906162",
@@ -2430,14 +2430,14 @@ export const terms = {
     {
       Term: "Evolution Modification",
       Definition:
-        "No longer to be used. \nReplaced by Product Development Modification.",
+        "No longer to be used.   Replaced by Product Development Modification.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Modification (Types of)",
     },
     {
       Term: "Examine",
-      Definition: "- To survey. \n- To inspect or test for abnormality.",
+      Definition: "- To survey.   - To inspect or test for abnormality.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Evaluation Means",
     },
@@ -2458,7 +2458,7 @@ export const terms = {
     {
       Term: "extended Minimum Crew Operations",
       Definition:
-        "Extended Minimum Crew Operations (eMCO) are defined as operations in which there are extended periods of the cruise phase with a\nminimum flight crew of one pilot at the controls while the other pilot(s) is(are) resting.",
+        "Extended Minimum Crew Operations (eMCO) are defined as operations in which there are extended periods of the cruise phase with a  minimum flight crew of one pilot at the controls while the other pilot(s) is(are) resting.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
       "Definition Source":
@@ -2467,7 +2467,7 @@ export const terms = {
     {
       Term: "External Paint System",
       Definition:
-        "The coatings applied to the external surfaces of an aircraft, for example this could be:\ni)   wash primer\nii)  primer\niii) topcoat\niv) varnish (optional).\n",
+        "The coatings applied to the external surfaces of an aircraft, for example this could be:  i)   wash primer  ii)  primer  iii) topcoat  iv) varnish (optional).  ",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "AI/PE-T",
@@ -2541,7 +2541,7 @@ export const terms = {
     {
       Term: "Federal Supply Code for Manufacturers",
       Definition:
-        "No longer to be used.\nReplaced by Commercial And Government Entity code.",
+        "No longer to be used.  Replaced by Commercial And Government Entity code.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -2617,7 +2617,7 @@ export const terms = {
     {
       Term: "First Flight",
       Definition:
-        "(AI/P 1200, AI/P 1400, AI/P 1600...) \nScheduled date for first flight which is the target for production. It is updated regularly and takes into consideration industrial aspects.",
+        "(AI/P 1200, AI/P 1400, AI/P 1600...)   Scheduled date for first flight which is the target for production. It is updated regularly and takes into consideration industrial aspects.",
       Status: "Approved",
       "Domain/Sub-domain": "Planning/General",
     },
@@ -2644,7 +2644,7 @@ export const terms = {
     {
       Term: "Fleet",
       Definition:
-        "A fleet is a group of aircraft with the same configuration sold to a single Customer. The fleet itself is handled as a single unit in accordance with one Purchase Agreement covering a quantity of aircraft for the same customer.\nFleets can be subdivided into hardcore, sub-fleet, master and dependent fleets. This mainly refers to Leasing Companies.",
+        "A fleet is a group of aircraft with the same configuration sold to a single Customer. The fleet itself is handled as a single unit in accordance with one Purchase Agreement covering a quantity of aircraft for the same customer.  Fleets can be subdivided into hardcore, sub-fleet, master and dependent fleets. This mainly refers to Leasing Companies.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
       "Definition Source": "ACMR",
@@ -2652,7 +2652,7 @@ export const terms = {
     {
       Term: "Fleet Serial Number",
       Definition:
-        "A number allocated by the Customer to an MSN either:  \n- to allow its easy incorporation in an Airline Group, \nor \n- to facilitate the handling of aircraft in a fleet.",
+        "A number allocated by the Customer to an MSN either:    - to allow its easy incorporation in an Airline Group,   or   - to facilitate the handling of aircraft in a fleet.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -2688,7 +2688,7 @@ export const terms = {
     {
       Term: "Flight Crew Report",
       Definition:
-        "Document established by the Flight Test Engineer and/or the Pilot in command, who then countersigns, which gives the results and crew comments of a test flight. A FCR is mandatory for every test flight.\nA copy is submitted to the Airworthiness Authorities.",
+        "Document established by the Flight Test Engineer and/or the Pilot in command, who then countersigns, which gives the results and crew comments of a test flight. A FCR is mandatory for every test flight.  A copy is submitted to the Airworthiness Authorities.",
       Status: "Approved",
       "Domain/Sub-domain": "Flight Test/Activity",
     },
@@ -2701,21 +2701,21 @@ export const terms = {
     {
       Term: "Flight Data Recording Parameter Library",
       Definition:
-        "The Flight Data Recording Parameter Library (FDRPL) contains the full description of the Flight Data Recorder (FDR) ARINC digital data. It enhances the search, retrieval, decoding and consultation of FDR data. The FDRPL will facilitate data retrieval and decoding of the: \n− numerical and discrete ARINC 429 parameters of all computers connected to the Flight Data Interface Unit (FDIU), \n− FDR data frames, \n− alpha call-up codes.",
+        "The Flight Data Recording Parameter Library (FDRPL) contains the full description of the Flight Data Recorder (FDR) ARINC digital data. It enhances the search, retrieval, decoding and consultation of FDR data. The FDRPL will facilitate data retrieval and decoding of the:   − numerical and discrete ARINC 429 parameters of all computers connected to the Flight Data Interface Unit (FDIU),   − FDR data frames,   − alpha call-up codes.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
     {
       Term: "Flight Direction",
       Definition:
-        "This term is used generally to define the direction of flight on the Aircraft and&nbsp;is commonly used on the installation drawings across ATA chapters.",
+        "This term is used generally to define the direction of flight on the Aircraft and ;is commonly used on the installation drawings across ATA chapters.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
     {
       Term: "Flight Hours",
       Definition:
-        'For Airbus, this is airborne time, i.e. wheels-off to wheels-on.\n\nNotes: 1)Term also used (but not by Airbus) for block hours. Ref. WATOG (TIME, FLIGHT) which gives the following definition: "Either: (a) Airborne time, i.e. wheels-off to wheels-on ; or (b) block time, i.e. chocks-away to chocks-under.\n\n2) FAA Regulations (FAR 1.1) define flight time as block time whereas European regulations (JAR 1.1) define flight time as airborne time. When the term "Flight time" is used, or values of flight time are quoted, the definition which applies shall be stated".',
+        'For Airbus, this is airborne time, i.e. wheels-off to wheels-on.    Notes: 1)Term also used (but not by Airbus) for block hours. Ref. WATOG (TIME, FLIGHT) which gives the following definition: "Either: (a) Airborne time, i.e. wheels-off to wheels-on ; or (b) block time, i.e. chocks-away to chocks-under.    2) FAA Regulations (FAR 1.1) define flight time as block time whereas European regulations (JAR 1.1) define flight time as airborne time. When the term "Flight time" is used, or values of flight time are quoted, the definition which applies shall be stated".',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
     },
@@ -2729,7 +2729,7 @@ export const terms = {
     {
       Term: "Flight Manual",
       Definition:
-        "The FM gives the limitations, the procedures and the performance required by the aircraft type certifications.  \nThe FM is approved by the airworthiness Authorities.",
+        "The FM gives the limitations, the procedures and the performance required by the aircraft type certifications.    The FM is approved by the airworthiness Authorities.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
     },
@@ -2808,7 +2808,7 @@ export const terms = {
     {
       Term: "Flight Training Device",
       Definition:
-        "A full scale replica of an aircraft instrument, equipment panel and control in an open cockpit area or an enclosed aircraft cockpit. Four levels are defined in the AC 120-45A: levels 4, 5, 6, 7.\n\nLevels 4 and 5 correspond to the Cockpit System Simulator (CSS).\n\nLevel 7 corresponds to the Fixed Base Simulator (FBS).",
+        "A full scale replica of an aircraft instrument, equipment panel and control in an open cockpit area or an enclosed aircraft cockpit. Four levels are defined in the AC 120-45A: levels 4, 5, 6, 7.    Levels 4 and 5 correspond to the Cockpit System Simulator (CSS).    Level 7 corresponds to the Fixed Base Simulator (FBS).",
       Status: "Approved",
       "Domain/Sub-domain": "Training/General",
       "Definition Source": "FAA: AC 120-45A",
@@ -2816,7 +2816,7 @@ export const terms = {
     {
       Term: "Floor Panels",
       Definition:
-        "Floor Panels are an integrated part of the aircraft structure.\n\nSome Floor Panels are fitted during the production phase of the aircraft section affected. The remainder in areas of Lavatory/Galley installation (flexible zones) are replaced by Dummy Parts/Panels.",
+        "Floor Panels are an integrated part of the aircraft structure.    Some Floor Panels are fitted during the production phase of the aircraft section affected. The remainder in areas of Lavatory/Galley installation (flexible zones) are replaced by Dummy Parts/Panels.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -2853,7 +2853,7 @@ export const terms = {
     {
       Term: "Full Provision",
       Definition:
-        "Full Provision for a specific item or set of items or equipment shall mean that, for example, all supports, brackets, tubes and fittings, electrical wiring and hydraulic lines, shall have been installed, except where this is not technically acceptable for normal operation, that space has been allocated and that installation of the specified item(s) can be made with the minimum of alteration to the aircraft.\n\nSystems for which Full Provision is installed shall be certified such that operation is permitted when the item(s) of equipment are incorporated. On aircraft to be delivered, only ground testing of Full Provision will be performed and the Buyer may be required to provide equipment necessary for ground testing and system certification.",
+        "Full Provision for a specific item or set of items or equipment shall mean that, for example, all supports, brackets, tubes and fittings, electrical wiring and hydraulic lines, shall have been installed, except where this is not technically acceptable for normal operation, that space has been allocated and that installation of the specified item(s) can be made with the minimum of alteration to the aircraft.    Systems for which Full Provision is installed shall be certified such that operation is permitted when the item(s) of equipment are incorporated. On aircraft to be delivered, only ground testing of Full Provision will be performed and the Buyer may be required to provide equipment necessary for ground testing and system certification.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Provisions",
     },
@@ -2890,7 +2890,7 @@ export const terms = {
     {
       Term: "Function",
       Definition:
-        "A function in organizational terms represents the main fields of activities of the Company to which specific accountabilities have been assigned to. \nThe main functions of Airbus are:\nGeneral Management, Operations, Engineering, Manufacturing, Information Systems, Quality, Programs, Customer Services, Human Resources, Finance, Procurement and Customer Affairs.\n\nFunctions can be grouped by the nature of the accountabilities and activities assigned to them:\n- Staff functions: organizations with primary advisory activities reporting to the General Management or to the Heads of operative or central functions.\n\n- Central functions: Human Resources and Finance and other supporting organizations at General or national management level as well as within the main operative functions.\n\n- Operative functions: functions performing operative tasks to design, manufacture, maintain or sell the company's products.",
+        "A function in organizational terms represents the main fields of activities of the Company to which specific accountabilities have been assigned to.   The main functions of Airbus are:  General Management, Operations, Engineering, Manufacturing, Information Systems, Quality, Programs, Customer Services, Human Resources, Finance, Procurement and Customer Affairs.    Functions can be grouped by the nature of the accountabilities and activities assigned to them:  - Staff functions: organizations with primary advisory activities reporting to the General Management or to the Heads of operative or central functions.    - Central functions: Human Resources and Finance and other supporting organizations at General or national management level as well as within the main operative functions.    - Operative functions: functions performing operative tasks to design, manufacture, maintain or sell the company's products.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -2912,14 +2912,14 @@ export const terms = {
     {
       Term: "Functional Item Number",
       Definition:
-        "Code allocated to the function of Equipment/Components or significant items of an aircraft System/Circuit/Installation.\nRefer to&nbsp;AM2212 for the applicable rules for the FIN allocation.",
+        "Code allocated to the function of Equipment/Components or significant items of an aircraft System/Circuit/Installation.  Refer to ;AM2212 for the applicable rules for the FIN allocation.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
     {
       Term: "Galley Network Controller System",
       Definition:
-        "The Electrical Galley Insert System consists of:  Galley Network Controllers (GNCs)  Electrical Galley Inserts (GAINs). The purpose of the Galley system is the preparation of food and drinks for the passengers during flight. Furthermore, the resulting trash can be managed and handled by the Galley system. To realise all these functions, different types of GAINs could be installed in the galley monuments: convection/steam oven beverage maker / water heater espresso maker trash compactor refrigerator / freezer etc",
+        "The Electrical Galley Insert System consists of : 1. Galley Network Controllers (GNCs) 2. Electrical Galley Inserts (GAINs). The purpose of the Galley system is the preparation of food and drinks for the passengers during flight. Furthermore, the resulting trash can be managed and handled by the Galley system. To realise all these functions, different types of GAINs could be installed in the galley monuments: convection/steam oven obeverage maker / water heater, espresso maker , trash compactor, refrigerator / freezer ,etc",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "MP L60013",
@@ -2935,7 +2935,7 @@ export const terms = {
     {
       Term: "General Assembly Drawing",
       Definition:
-        "The General Assembly Drawing is the top cascade drawing which validates, per Aircraft Type and Version, the Definition Dossiers to demonstrate that the Aircraft Configuration-Definition is in compliance with its Applicable\nDefinition Document (e.g. Aircraft Standard Specification, Aircraft Modifications).",
+        "The General Assembly Drawing is the top cascade drawing which validates, per Aircraft Type and Version, the Definition Dossiers to demonstrate that the Aircraft Configuration-Definition is in compliance with its Applicable  Definition Document (e.g. Aircraft Standard Specification, Aircraft Modifications).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source": "M2967 issue A",
@@ -3069,14 +3069,14 @@ export const terms = {
     {
       Term: "Handover to AIB",
       Definition:
-        "No longer to be used.\nMilestone in the Aircraft production.\nOfficial session which takes place at the end of the Aircraft assembly to compare the Aircraft status with its definition. At the end, the Aircraft is accepted or not by AIB. When the aircraft is accepted by the Flight Test organization it is under the responsibility of that organization.",
+        "No longer to be used.  Milestone in the Aircraft production.  Official session which takes place at the end of the Aircraft assembly to compare the Aircraft status with its definition. At the end, the Aircraft is accepted or not by AIB. When the aircraft is accepted by the Flight Test organization it is under the responsibility of that organization.",
       Status: "Approved",
       "Domain/Sub-domain": "Planning/General",
     },
     {
       Term: "Handover to Programs",
       Definition:
-        "Milestone in the Aircraft production. Official session which takes place at the end of the Aircraft assembly to compare the Aircraft status with its definition. At the end, the Aircraft is accepted or not by&nbsp;Programs. When the aircraft is accepted by the Flight Test organization it is under the responsibility of that organization.",
+        "Milestone in the Aircraft production. Official session which takes place at the end of the Aircraft assembly to compare the Aircraft status with its definition. At the end, the Aircraft is accepted or not by ;Programs. When the aircraft is accepted by the Flight Test organization it is under the responsibility of that organization.",
       Status: "Approved",
       "Domain/Sub-domain": "Planning/General",
     },
@@ -3091,7 +3091,7 @@ export const terms = {
     {
       Term: "harmonized Primary Flight Display",
       Definition:
-        "The harmonized Primary Flight Display (hPFD)&nbsp;is a version of the Primary Flight Display (PFD) which provides the flight crew with trajectory/energy flying references common with Head Up Display (HUD).",
+        "The harmonized Primary Flight Display (hPFD) ;is a version of the Primary Flight Display (PFD) which provides the flight crew with trajectory/energy flying references common with Head Up Display (HUD).",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "X3160RP1708230",
@@ -3107,7 +3107,7 @@ export const terms = {
     {
       Term: "Highlight Code",
       Definition:
-        "A numeric code identifying the reason for change within a manual for automatic inclusion in the highlights list when an electronic publishing system is used.\neg: 01 = Modification XXXXX incorporated,\neg: 09 = Layout improved/material relocated.",
+        "A numeric code identifying the reason for change within a manual for automatic inclusion in the highlights list when an electronic publishing system is used.  eg: 01 = Modification XXXXX incorporated,  eg: 09 = Layout improved/material relocated.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -3178,7 +3178,7 @@ export const terms = {
     {
       Term: "Incident",
       Definition:
-        'Extract from AP2509 (June 02), \nAirbus Accident Investigation Policy and Procedure Guide.\n\n"An incident is an occurrence other than an accident or a serious incident, associated with the operation of an aircraft, which affects or could affect safety in the broadest sense."',
+        'Extract from AP2509 (June 02),   Airbus Accident Investigation Policy and Procedure Guide.    "An incident is an occurrence other than an accident or a serious incident, associated with the operation of an aircraft, which affects or could affect safety in the broadest sense."',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Unscheduled Occurrences",
       "Definition Source": "AP2509",
@@ -3216,7 +3216,7 @@ export const terms = {
     {
       Term: "Industrial Standard",
       Definition:
-        "Code representing additional features added to a standard definition before allocation of the aircraft to a Customer. \nThe code consists of a digit representing the standard, the feature and a neutral character. \nFor the time being, it is only used to introduce propulsion system related definitions (e.g. 1A*).",
+        "Code representing additional features added to a standard definition before allocation of the aircraft to a Customer.   The code consists of a digit representing the standard, the feature and a neutral character.   For the time being, it is only used to introduce propulsion system related definitions (e.g. 1A*).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -3238,7 +3238,7 @@ export const terms = {
     {
       Term: "Initial Provisioning Data",
       Definition:
-        "Data raised for components/Line Replaceable Units (LRUs) includes: \n- Recommended quantity, \n- Price, \n- Spares part code, \n- Overhaul/Repair/Expendable data.",
+        "Data raised for components/Line Replaceable Units (LRUs) includes:   - Recommended quantity,   - Price,   - Spares part code,   - Overhaul/Repair/Expendable data.",
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Spares",
     },
@@ -3276,7 +3276,7 @@ export const terms = {
     {
       Term: "Inspection Dossier",
       Definition:
-        "The inspection dossier is a set of data / documents which allows, with reference to the\ndefinition and manufacturing dossiers, the verification of the conformity of an aircraft or\npart with its definition. The dossier includes inspection and test results.",
+        "The inspection dossier is a set of data / documents which allows, with reference to the  definition and manufacturing dossiers, the verification of the conformity of an aircraft or  part with its definition. The dossier includes inspection and test results.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Industrialization Dossier",
       "Definition Source": "A30",
@@ -3284,7 +3284,7 @@ export const terms = {
     {
       Term: "Inspection Record",
       Definition:
-        "Compilation of all Inspection Reports.  \nBasis for Aircraft Inspection Report (AIR) compilation.",
+        "Compilation of all Inspection Reports.    Basis for Aircraft Inspection Report (AIR) compilation.",
       Status: "Approved",
       "Domain/Sub-domain": "Inspection/General",
     },
@@ -3298,7 +3298,7 @@ export const terms = {
     {
       Term: "Inspection Technical Dossier",
       Definition:
-        "Inspection Technical Dossier (ITD) is a Proposal on the in-service fleet with different origins:\n Answers to an occurrence\n Quality Survey Report (QSR)",
+        "Inspection Technical Dossier (ITD) is a Proposal on the in-service fleet with different origins:   Answers to an occurrence   Quality Survey Report (QSR)",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
       "Definition Source":
@@ -3360,7 +3360,7 @@ export const terms = {
     {
       Term: "Integrated Air System Controller",
       Definition:
-        "The Integrated Air System Controller is a dual lane controller which hosts the control and monitoring functions of the Air Generation System, Temperature Control System, Conditioned Service Air System, Avionics Equipment Ventilation System and communicate with other systems.&nbsp;&nbsp;\n\n",
+        "The Integrated Air System Controller is a dual lane controller which hosts the control and monitoring functions of the Air Generation System, Temperature Control System, Conditioned Service Air System, Avionics Equipment Ventilation System and communicate with other systems. ; ;    ",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "SA SID 2.1 ACS ATA21 - SA21RP1624663",
@@ -3368,7 +3368,7 @@ export const terms = {
     {
       Term: "Integrated Change Control",
       Definition:
-        "Integrated Change Control (ICC) is the tool supporting the A/C Change Process, which integrates all Functions (Program, Engineering, Manufacturing, Costing, etc.) for all A/C programs. \n",
+        "Integrated Change Control (ICC) is the tool supporting the A/C Change Process, which integrates all Functions (Program, Engineering, Manufacturing, Costing, etc.) for all A/C programs.   ",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source": "A2843.3 issue B1 / AP2654",
@@ -3384,7 +3384,7 @@ export const terms = {
     {
       Term: "Interactivity",
       Definition:
-        'Level of trainee interaction with the Computer-Based Training (CBT) man/machine interface:  \n- in an interactive module (exercise, simulation) this level is high, \n- in a simple "page turning" or linear module the level of interactivity is very low.',
+        'Level of trainee interaction with the Computer-Based Training (CBT) man/machine interface:    - in an interactive module (exercise, simulation) this level is high,   - in a simple "page turning" or linear module the level of interactivity is very low.',
       Status: "Approved",
       "Domain/Sub-domain": "Training/General",
     },
@@ -3407,7 +3407,7 @@ export const terms = {
     {
       Term: "Interface Concession",
       Definition:
-        "A specific type of concession resulting from the situation when a Nonconformity has an effect on the other side of the interface (defined for each Project in the relevant Report 6) between the technical responsibilities of one or more industrial organizations.\n\nSuch effects shall include the following:\n- Installation/Assembly difficulties\n- Alteration of load distribution\n- Aerodynamic effect\n- Changes in system operation\n- Interchangeability",
+        "A specific type of concession resulting from the situation when a Nonconformity has an effect on the other side of the interface (defined for each Project in the relevant Report 6) between the technical responsibilities of one or more industrial organizations.    Such effects shall include the following:  - Installation/Assembly difficulties  - Alteration of load distribution  - Aerodynamic effect  - Changes in system operation  - Interchangeability",
       Status: "Approved",
       "Domain/Sub-domain": "Manufacturing/General",
     },
@@ -3421,7 +3421,7 @@ export const terms = {
     },
     {
       Term: "Intermixability",
-      Definition: "No longer to be used. \nUse Mixability.",
+      Definition: "No longer to be used.   Use Mixability.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Interchangeability",
     },
@@ -3453,7 +3453,7 @@ export const terms = {
     {
       Term: "Invoice",
       Definition:
-        "A - A printed form used for detailing charges. \nB - To submit a statement of charges for...",
+        "A - A printed form used for detailing charges.   B - To submit a statement of charges for...",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Commercial",
       "Definition Source": "WD",
@@ -3461,7 +3461,7 @@ export const terms = {
     {
       Term: "Jobbing",
       Definition:
-        "Subcontract work planned on a short-term basis. \nRaw materials supplied by the NatCo or Associated Partner.  Covers industrialization, manufacture (series production and spares) and inspection.",
+        "Subcontract work planned on a short-term basis.   Raw materials supplied by the NatCo or Associated Partner.  Covers industrialization, manufacture (series production and spares) and inspection.",
       Status: "Approved",
       "Domain/Sub-domain": "Subcontracting/General",
     },
@@ -3499,7 +3499,7 @@ export const terms = {
     {
       Term: "Kit",
       Definition:
-        "Pre-defined set of Equipment and Parts to form a Technical Solution/Option.\n\nWhere related to repetitive equipment, different kits may comprise the same basic equipment. The integration in different aircraft areas may be performed by means of specific adaptation parts.",
+        "Pre-defined set of Equipment and Parts to form a Technical Solution/Option.    Where related to repetitive equipment, different kits may comprise the same basic equipment. The integration in different aircraft areas may be performed by means of specific adaptation parts.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -3597,7 +3597,7 @@ export const terms = {
     {
       Term: "L-Band Unit",
       Definition:
-        "In A350 configuration, the L-Band Unit mainly communicates with aircraft systems through Avionics Full Duplex Switched Ethernet (AFDX) network, as well as other media (ARINC 429, discrete, analog).In A320/A330 family configurations, the L-Band Unit mainly communicates with aircraft systems through ARINC 429, discrete and analog media.&nbsp;",
+        "In A350 configuration, the L-Band Unit mainly communicates with aircraft systems through Avionics Full Duplex Switched Ethernet (AFDX) network, as well as other media (ARINC 429, discrete, analog).In A320/A330 family configurations, the L-Band Unit mainly communicates with aircraft systems through ARINC 429, discrete and analog media. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "X3471SP2201922 issue 1.0",
@@ -3747,7 +3747,7 @@ export const terms = {
     {
       Term: "Loads Stress Interface",
       Definition:
-        "Loads Stress Interface (LSI) is a multidisciplinary process involving Loads, Global Finite Element Model (GFEM)&nbsp;and Stress with the aim of reducing design time by automating the workflow.",
+        "Loads Stress Interface (LSI) is a multidisciplinary process involving Loads, Global Finite Element Model (GFEM) ;and Stress with the aim of reducing design time by automating the workflow.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source":
@@ -3844,7 +3844,7 @@ export const terms = {
     {
       Term: "Maintenance",
       Definition:
-        'Those actions required for restoring or maintaining an item in serviceable condition, including servicing, repair, modification, overhaul, inspection and determination of condition.\n\n(Note: see also "Maintenance" in the domain Certification).',
+        'Those actions required for restoring or maintaining an item in serviceable condition, including servicing, repair, modification, overhaul, inspection and determination of condition.    (Note: see also "Maintenance" in the domain Certification).',
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General",
@@ -3907,7 +3907,7 @@ export const terms = {
     {
       Term: "Maintenance Significant Item",
       Definition:
-        "Items identified by the manufacturer whose failure:\na) could affect safety (ground or flight), and/or\nb) is undetectable during operations, and/or\nc) could have significant operational economic impact, and/or\nd) could have significant non-operational economic impact.",
+        "Items identified by the manufacturer whose failure:  a) could affect safety (ground or flight), and/or  b) is undetectable during operations, and/or  c) could have significant operational economic impact, and/or  d) could have significant non-operational economic impact.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Definition Source": "WATOG",
@@ -3984,7 +3984,7 @@ export const terms = {
     {
       Term: "Manufacturing Notice Instruction",
       Definition:
-        "Additional Manufacturing documents, not dedicated to a specific aircraft or element, when required at shopfloor level, to detail one or several tasks of the process according to the means, jigs &amp; tools,, used by this specific shop floor. The local Manufacturing Engineering department of this shop floor can take the decision to create these additional documents, called Manufacturing Notice Instruction.\nThese documents are under ME responsibility in the plant and are fully dedicated to an AIPI.",
+        "Additional Manufacturing documents, not dedicated to a specific aircraft or element, when required at shopfloor level, to detail one or several tasks of the process according to the means, jigs &amp; tools,, used by this specific shop floor. The local Manufacturing Engineering department of this shop floor can take the decision to create these additional documents, called Manufacturing Notice Instruction.  These documents are under ME responsibility in the plant and are fully dedicated to an AIPI.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Industrialization/Industrialization Dossier;Documentation Templates/General;Manufacturing/General",
@@ -4017,7 +4017,7 @@ export const terms = {
     {
       Term: "Massive Data Capitalization",
       Definition:
-        "The objective of the Massive Data Capitalization (MDC) program is to design, implement\nand deploy a scalable data collection platform as part of a certifiable data driven\ndevelopment framework that will enable the development, validation and verification of\nautonomy functions (using both Machine Learning and legacy algorithms)",
+        "The objective of the Massive Data Capitalization (MDC) program is to design, implement  and deploy a scalable data collection platform as part of a certifiable data driven  development framework that will enable the development, validation and verification of  autonomy functions (using both Machine Learning and legacy algorithms)",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "SA4626ME2300709 issue 1.0",
@@ -4025,7 +4025,7 @@ export const terms = {
     {
       Term: "Massive Data Capitalization Control Unit",
       Definition:
-        "Massive Data Capitalization Control Unit (MDCCU)&nbsp;is on-board MDC computer , which acquires and stores MDC camera video\nsequences, interfaced with some avionics systems (to acquire contextual data) and In-Flight Entertainement (IFE) system (to forward video stream to IFE)",
+        "Massive Data Capitalization Control Unit (MDCCU) ;is on-board MDC computer , which acquires and stores MDC camera video  sequences, interfaced with some avionics systems (to acquire contextual data) and In-Flight Entertainement (IFE) system (to forward video stream to IFE)",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "SA4626ME2300709 issue 1.0",
@@ -4033,7 +4033,7 @@ export const terms = {
     {
       Term: "Massive Data Capitalization Landscape Camera",
       Definition:
-        "The Massive Data Capitalization Landscape Camera (MDCLC) is a camera assembly responsible for providing video of the environment in front of the aircraft to the Massive Data Capitalization Control Unit (MDCCU).&nbsp;",
+        "The Massive Data Capitalization Landscape Camera (MDCLC) is a camera assembly responsible for providing video of the environment in front of the aircraft to the Massive Data Capitalization Control Unit (MDCCU). ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "SA4626ME2300709 issue 1.0",
@@ -4065,14 +4065,14 @@ export const terms = {
     {
       Term: "Master Minimum Equipment List",
       Definition:
-        "An MMEL is a list of system functions or items of equipment which are allowed to be inoperative at dispatch for a limited period of time.  \nIt is approved by the Authorities and must be used by the airlines to develop their own MEL.",
+        "An MMEL is a list of system functions or items of equipment which are allowed to be inoperative at dispatch for a limited period of time.    It is approved by the Authorities and must be used by the airlines to develop their own MEL.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
     },
     {
       Term: "Material",
       Definition:
-        "Relates to processed products: \n- substances, \n- raw, \n- manufactured. \n\nClassified as follows: \n- metallic,\n- non-metallic, \n- composites, \n- consumable (oil, fuel...).",
+        "Relates to processed products:   - substances,   - raw,   - manufactured.     Classified as follows:   - metallic,  - non-metallic,   - composites,   - consumable (oil, fuel...).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -4094,7 +4094,7 @@ export const terms = {
     {
       Term: "Maturity",
       Definition:
-        "Maturity is achieved when the delivered product meets the customers' expectations.  \n(The means of achieving this and the precise definition of maturity will vary according to the discipline).",
+        "Maturity is achieved when the delivered product meets the customers' expectations.    (The means of achieving this and the precise definition of maturity will vary according to the discipline).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
     },
@@ -4116,7 +4116,7 @@ export const terms = {
     {
       Term: "Mechanical Crash Sensor Unit",
       Definition:
-        "The MCSU is a sensor to identify&nbsp;A/C crash conditions. It is mounted in a rigid section of the seat structure and is preferably close to the seat base.",
+        "The MCSU is a sensor to identify ;A/C crash conditions. It is mounted in a rigid section of the seat structure and is preferably close to the seat base.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General;Aircraft Operation/Flight Operations;Customer Services/Aircraft Identification;Inspection/General;Supply Chain Logistics/General;Training/General",
@@ -4126,14 +4126,14 @@ export const terms = {
     {
       Term: "Member",
       Definition:
-        "No longer to be used. \nReplaced by National Company (NatCo).\nHolder of membership rights in a GIE. In Airbus Industrie: \n- Aerospatiale. \n- Daimler-Benz Aerospace Airbus. \n- British Aerospace. P.L.C. \n- CASA.",
+        "No longer to be used.   Replaced by National Company (NatCo).  Holder of membership rights in a GIE. In Airbus Industrie:   - Aerospatiale.   - Daimler-Benz Aerospace Airbus.   - British Aerospace. P.L.C.   - CASA.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
     {
       Term: "Member And Associated Partner Code",
       Definition:
-        "No longer to be used.\n\nA specific code letter/number is allocated to each Airbus Member or Associated Partner.\n\nMay be different depending on:\n- A/C project,\n- Nature of the document.\n\nFor new applications, use the Wide Body Members identification code as used for the A300/A310/A330/A340 Mod Proposals:\n- AIB = A, (AIRBUS  INDUSTRIE)\n- AM-B = S, (Member)\n- BAE = H, (Member)\n- CASA = C, (Member)\n- DASA = D, (Member)\n- BELAIRBUS = B, (Associated Partner)\n- FOKKER = F, (Associated Partner)\n\nAny directive shall indicate clearly the identification system selected for the corresponding documentation or computer application.\n\nFor contractual Technical Publications refer to Technical Publications Guide - Airbus General Guide (TPG-AGG).",
+        "No longer to be used.    A specific code letter/number is allocated to each Airbus Member or Associated Partner.    May be different depending on:  - A/C project,  - Nature of the document.    For new applications, use the Wide Body Members identification code as used for the A300/A310/A330/A340 Mod Proposals:  - AIB = A, (AIRBUS  INDUSTRIE)  - AM-B = S, (Member)  - BAE = H, (Member)  - CASA = C, (Member)  - DASA = D, (Member)  - BELAIRBUS = B, (Associated Partner)  - FOKKER = F, (Associated Partner)    Any directive shall indicate clearly the identification system selected for the corresponding documentation or computer application.    For contractual Technical Publications refer to Technical Publications Guide - Airbus General Guide (TPG-AGG).",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -4154,7 +4154,7 @@ export const terms = {
     {
       Term: "Methodology and software tools Oriented to KBE Applications",
       Definition:
-        "Methodology and software tools\nOriented to\nKnowledge Based Engineering\nApplications\nMOKA is a Knowledge Capture methodology to elicit and structure knowledge, using a product model and process model. It uses knowledge objects such as Functions, Entities and Constraints in the product model, and Activities and Rules in the process model. Each knowledge object is associated with its ICARE form.\nMOKA and its objects can be customised to each project's logic.",
+        "Methodology and software tools  Oriented to  Knowledge Based Engineering  Applications  MOKA is a Knowledge Capture methodology to elicit and structure knowledge, using a product model and process model. It uses knowledge objects such as Functions, Entities and Constraints in the product model, and Activities and Rules in the process model. Each knowledge object is associated with its ICARE form.  MOKA and its objects can be customised to each project's logic.",
       Status: "Approved",
       "Domain/Sub-domain": "Knowledge Management/General",
       "Definition Source": "EOMMW, KM UK team",
@@ -4185,7 +4185,7 @@ export const terms = {
     {
       Term: "Mission Configuration",
       Definition:
-        "Where related to a Convertible Aircraft it means: \n- all passenger, \n- all cargo, \n- passenger and cargo.",
+        "Where related to a Convertible Aircraft it means:   - all passenger,   - all cargo,   - passenger and cargo.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -4206,7 +4206,7 @@ export const terms = {
     {
       Term: "Model",
       Definition:
-        "Designates a series with a particular engine installation  \n(eg: A330-301: CF6-80E1A2 (GE engine)\n       A330-321: PW4164 (PW engine)\n       A330-341: TRENT 768-60 (RR engine)).",
+        "Designates a series with a particular engine installation    (eg: A330-301: CF6-80E1A2 (GE engine)         A330-321: PW4164 (PW engine)         A330-341: TRENT 768-60 (RR engine)).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/Certification",
     },
@@ -4237,7 +4237,7 @@ export const terms = {
     {
       Term: "Modification Certification Classification",
       Definition:
-        'Modifications forming part of the "Aircraft Type Certification" definition are approved by the certification Authorities. Any additional modification is to be approved.\nA classification:\n  Y = Major change\n  X = Minor change\nis proposed to the Authorities.',
+        'Modifications forming part of the "Aircraft Type Certification" definition are approved by the certification Authorities. Any additional modification is to be approved.  A classification:    Y = Major change    X = Minor change  is proposed to the Authorities.',
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
       "Definition Source": "ACMR",
@@ -4253,7 +4253,7 @@ export const terms = {
     {
       Term: "Modification Information Document",
       Definition:
-        'No longer to be used.\nUnder Airbus Technical Information System (A.T.I.S.), this is the equivalent of a "Technical Information Document" (see in the domain "Aircraft Configuration").',
+        'No longer to be used.  Under Airbus Technical Information System (A.T.I.S.), this is the equivalent of a "Technical Information Document" (see in the domain "Aircraft Configuration").',
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Information Systems",
     },
@@ -4300,7 +4300,7 @@ export const terms = {
     {
       Term: "Monitor",
       Definition:
-        "A- To check and sometimes to adjust. \nB- To watch, observe or check-up for a special purpose.",
+        "A- To check and sometimes to adjust.   B- To watch, observe or check-up for a special purpose.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management",
       "Definition Source": "WD",
@@ -4323,21 +4323,21 @@ export const terms = {
     {
       Term: "National Company",
       Definition:
-        "The official names of the National Companies are:\n- Airbus Deutschland GmbH (in-house abbreviation: A-D)\n- Airbus España SL (in-house abbreviation: A-E)\n- Airbus France S.A.S. (in-house abbreviation: A-F)\n- Airbus UK Ltd (in-house abbreviation: A-UK)",
+        "The official names of the National Companies are:  - Airbus Deutschland GmbH (in-house abbreviation: A-D)  - Airbus España SL (in-house abbreviation: A-E)  - Airbus France S.A.S. (in-house abbreviation: A-F)  - Airbus UK Ltd (in-house abbreviation: A-UK)",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
     {
       Term: "NATO Supply Code for Manufacturers",
       Definition:
-        "No longer to be used. \nReplaced by Commercial And Government Entity Code(CAGE). Code which is issued to Suppliers (outside the USA and Canada) for identification purposes, enabling them to have a unique and abbreviated reference mainly for Electronic Data Processing (EDP) use. These are five-position, alphanumeric codes as specified in Cataloging Handbook H4/H8: Sections C and D, NATO Supply Codes for Manufacturer (NSCM) (excluding the USA and Canada).&nbsp; The CAGE code is only used for US suppliers whereas suppliers outside the US use a NATO Commercial and Government Entity&nbsp;Code (NCAGE).&nbsp;",
+        "No longer to be used.   Replaced by Commercial And Government Entity Code(CAGE). Code which is issued to Suppliers (outside the USA and Canada) for identification purposes, enabling them to have a unique and abbreviated reference mainly for Electronic Data Processing (EDP) use. These are five-position, alphanumeric codes as specified in Cataloging Handbook H4/H8: Sections C and D, NATO Supply Codes for Manufacturer (NSCM) (excluding the USA and Canada). ; The CAGE code is only used for US suppliers whereas suppliers outside the US use a NATO Commercial and Government Entity ;Code (NCAGE). ;",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
     {
       Term: "New Air and Inertia Automatic Data Switching",
       Definition:
-        "New Air and Inertia Automatic Data Switching (NAIADS) is an aircraft function which aims at: \n-Providing the crew with a back-up airspeed and altitude in case of unreliable airspeed or altitude. \n-Automatically displaying the best airspeed, altitude, inertial data without requiring crew action, \n-Maintaining Normal law and Auto-Pilot using backup air data, once all the ADR and ISIS anemo data are detected as erroneous or failed.",
+        "New Air and Inertia Automatic Data Switching (NAIADS) is an aircraft function which aims at:   -Providing the crew with a back-up airspeed and altitude in case of unreliable airspeed or altitude.   -Automatically displaying the best airspeed, altitude, inertial data without requiring crew action,   -Maintaining Normal law and Auto-Pilot using backup air data, once all the ADR and ISIS anemo data are detected as erroneous or failed.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
       "Definition Source":
@@ -4361,7 +4361,7 @@ export const terms = {
     {
       Term: "Non-Airbus Aircraft",
       Definition:
-        'An aircraft which has not been designed or manufactured by Airbus but which has temporarily come under the control and responsibility of Airbus who may also maintain or operate the aircraft as owner or agent.\nNote: Denoted by "NAA" where space is limited.',
+        'An aircraft which has not been designed or manufactured by Airbus but which has temporarily come under the control and responsibility of Airbus who may also maintain or operate the aircraft as owner or agent.  Note: Denoted by "NAA" where space is limited.',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -4411,7 +4411,7 @@ export const terms = {
     {
       Term: "No Technical Objection",
       Definition:
-        "An NTO is an Airbus written statement responding to an Operator request for using specific aircraft in a configuration (aircraft definition) or with procedures (operational or maintenance) which deviates from the current ones. The NTO is issued in exceptional circumstances and would normally have a temporary validity.\nThe statement contains information technically acceptable to Airbus and specifies any conditions, limits or limitations identified as necessary.\nThe statement is not approved by the Airbus prime Airworthiness Authority (DGAC - French Airworthiness Authority). It is the responsibility of the Operator to obtain the local Airworthiness Authority approval according to the national procedures for the provisions and the limitations contained in the document.\nThe NTO shall not be used for structural repairs.",
+        "An NTO is an Airbus written statement responding to an Operator request for using specific aircraft in a configuration (aircraft definition) or with procedures (operational or maintenance) which deviates from the current ones. The NTO is issued in exceptional circumstances and would normally have a temporary validity.  The statement contains information technically acceptable to Airbus and specifies any conditions, limits or limitations identified as necessary.  The statement is not approved by the Airbus prime Airworthiness Authority (DGAC - French Airworthiness Authority). It is the responsibility of the Operator to obtain the local Airworthiness Authority approval according to the national procedures for the provisions and the limitations contained in the document.  The NTO shall not be used for structural repairs.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Definition Evolution Implementation",
@@ -4427,7 +4427,7 @@ export const terms = {
     {
       Term: "Occasional Subcontracting",
       Definition:
-        "Work subcontracted in the event of: \n- workload peaks, to be absorbed, \n- program stoppages, in order to maintain facilities, transfer manufacture, \n- unpredictable production requirements.",
+        "Work subcontracted in the event of:   - workload peaks, to be absorbed,   - program stoppages, in order to maintain facilities, transfer manufacture,   - unpredictable production requirements.",
       Status: "Approved",
       "Domain/Sub-domain": "Subcontracting/General",
       "Specialized Glossary": "Retention and Archiving",
@@ -4435,7 +4435,7 @@ export const terms = {
     {
       Term: "On-Board Data Manager",
       Definition:
-        "The On-board Data Manager (ODM) is a software on-board Airbus Open Software Platform\n(Airspace Link) to ease communication among users, applications and aircraft modules.",
+        "The On-board Data Manager (ODM) is a software on-board Airbus Open Software Platform  (Airspace Link) to ease communication among users, applications and aircraft modules.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Definition Source":
@@ -4444,7 +4444,7 @@ export const terms = {
     {
       Term: "Onboard Maintenance System",
       Definition:
-        "The Onboard Maintenance System (OMS) is a common framework for several functions needed to support the following activities: \n· A/C Maintenance (line and hangar; scheduled and unscheduled), \n· Engineering follow-up (A/C, systems and fleet monitoring), \n· A/C configuration, \n· A/C servicing and efficiency of operation.",
+        "The Onboard Maintenance System (OMS) is a common framework for several functions needed to support the following activities:   · A/C Maintenance (line and hangar; scheduled and unscheduled),   · Engineering follow-up (A/C, systems and fleet monitoring),   · A/C configuration,   · A/C servicing and efficiency of operation.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "ABD0200",
@@ -4483,7 +4483,7 @@ export const terms = {
     {
       Term: "Operating Engineering Bulletin",
       Definition:
-        "Bulletin published in the Flight Crew Operating Manual (FCOM) to provide crews with urgent information related to:  \n- temporary resolution of technical problems by procedure, \n- material to stress a particular aircraft behavior. \nOEBs can be updated or cancelled.",
+        "Bulletin published in the Flight Crew Operating Manual (FCOM) to provide crews with urgent information related to:    - temporary resolution of technical problems by procedure,   - material to stress a particular aircraft behavior.   OEBs can be updated or cancelled.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
     },
@@ -4497,7 +4497,7 @@ export const terms = {
     {
       Term: "Operational Interruption",
       Definition:
-        "A (technical) Operational Interruption (OI) is a chargeable interruption of a scheduled flight. An interruption is chargeable when it is caused by a known or suspected malfunction of a basic aircraft system or component, checking of this malfunction, or any necessary corrective action. Operational Interruptions are composed of:\n- Ground Interruptions which are flight delays greater than 15 minutes and flight cancellations.\n- Air Interruptions which are air turn-backs and diversions.\nOperational Interruptions are used in:\n- Engineering (Supportability and Safety) and Program organization to make OI rate performance prediction against targets during the design process of new aircraft,\n- Customer Services organization to measure OI rate performance for In-Service Aircraft and propose modifications to improve it.",
+        "A (technical) Operational Interruption (OI) is a chargeable interruption of a scheduled flight. An interruption is chargeable when it is caused by a known or suspected malfunction of a basic aircraft system or component, checking of this malfunction, or any necessary corrective action. Operational Interruptions are composed of:  - Ground Interruptions which are flight delays greater than 15 minutes and flight cancellations.  - Air Interruptions which are air turn-backs and diversions.  Operational Interruptions are used in:  - Engineering (Supportability and Safety) and Program organization to make OI rate performance prediction against targets during the design process of new aircraft,  - Customer Services organization to measure OI rate performance for In-Service Aircraft and propose modifications to improve it.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
       "Definition Source": "Monthly Service Report",
@@ -4512,7 +4512,7 @@ export const terms = {
     {
       Term: "Operational Reliability",
       Definition:
-        "Operational Reliability (OR) is the percentage of scheduled flights which depart and arrive without incurring a (technical) operational interruption including ground and air interruptions. Ground interruptions are flight dispatch delays greater than 15 minutes and flight cancellations. Air interruptions are air turn-backs and diversions.\nOperational Reliability performance is used in:\n- Engineering (Supportability and Safety) and Program organization to make OR performance prediction against targets during the design process of new aircraft,\n- Customer Services organization to measure OR performance for In-Service Aircraft and propose modifications to improve it.",
+        "Operational Reliability (OR) is the percentage of scheduled flights which depart and arrive without incurring a (technical) operational interruption including ground and air interruptions. Ground interruptions are flight dispatch delays greater than 15 minutes and flight cancellations. Air interruptions are air turn-backs and diversions.  Operational Reliability performance is used in:  - Engineering (Supportability and Safety) and Program organization to make OR performance prediction against targets during the design process of new aircraft,  - Customer Services organization to measure OR performance for In-Service Aircraft and propose modifications to improve it.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/General",
       "Definition Source": "Monthly Service Report",
@@ -4535,7 +4535,7 @@ export const terms = {
     {
       Term: "Option",
       Definition:
-        "Pre-Defined or Pre-Designed Technical Solutions which may be offered to the customers for choice. At an early stage of each new aircraft definition, an Option list is established between Customers-Airbus. \n\nFor Optional, refer to Optional Item.",
+        "Pre-Defined or Pre-Designed Technical Solutions which may be offered to the customers for choice. At an early stage of each new aircraft definition, an Option list is established between Customers-Airbus.     For Optional, refer to Optional Item.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/General",
     },
@@ -4604,14 +4604,14 @@ export const terms = {
     {
       Term: "Partial Embodiment",
       Definition:
-        "Relates to a modification which has not been incorporated in the aircraft according to its complete definition. \n\nRequires a precise record and application of the concession procedure except where partial embodiment results from a General Modification Committee (GMC) decision.",
+        "Relates to a modification which has not been incorporated in the aircraft according to its complete definition.     Requires a precise record and application of the concession procedure except where partial embodiment results from a General Modification Committee (GMC) decision.",
       Status: "Approved",
       "Domain/Sub-domain": "Manufacturing/General",
     },
     {
       Term: "Partner",
       Definition:
-        "No longer to be used.\nTerm used to express the business relationships of the National Companies between themselves in the context of the GIE.",
+        "No longer to be used.  Term used to express the business relationships of the National Companies between themselves in the context of the GIE.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -4647,7 +4647,7 @@ export const terms = {
     {
       Term: "Performance Engineers Program",
       Definition:
-        "A PEP provides airline's performance engineers with computer programs and performance data bases for calculation of:  \n- in-flight performance, \n- takeoff and landing performance, \n- flight planning, \n- performance monitoring.",
+        "A PEP provides airline's performance engineers with computer programs and performance data bases for calculation of:    - in-flight performance,   - takeoff and landing performance,   - flight planning,   - performance monitoring.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Performance Engineering",
     },
@@ -4677,7 +4677,7 @@ export const terms = {
     {
       Term: "Phases",
       Definition:
-        "Industrial phases valid for A300/A310/A320:\n- Phase 1: period between A/C handover to Programs and commencement of Cabin Furnishing.\n- Phase 2: period of completion of Cabin Furnishing installation.\n- Phase 3: period between cabin furnishing completed and delivery to the customer.",
+        "Industrial phases valid for A300/A310/A320:  - Phase 1: period between A/C handover to Programs and commencement of Cabin Furnishing.  - Phase 2: period of completion of Cabin Furnishing installation.  - Phase 3: period between cabin furnishing completed and delivery to the customer.",
       Status: "Approved",
       "Domain/Sub-domain": "Planning/General",
     },
@@ -4700,7 +4700,7 @@ export const terms = {
     {
       Term: "Placard",
       Definition:
-        "A notice, indicating, eg: Safety information, Maintenance-significant information, Ground Servicing instructions, Cautions, Warnings...\nCan be decals, Metal plates...",
+        "A notice, indicating, eg: Safety information, Maintenance-significant information, Ground Servicing instructions, Cautions, Warnings...  Can be decals, Metal plates...",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "TF7",
@@ -4723,7 +4723,7 @@ export const terms = {
     {
       Term: "Possible Configuration",
       Definition:
-        "Available Pre-Defined and Pre-Designed Aircraft Configuration which is subject to specific negotiations with Customers. \n- weight, \n- performance, \n- payload, \n- weight and balance system.",
+        "Available Pre-Defined and Pre-Designed Aircraft Configuration which is subject to specific negotiations with Customers.   - weight,   - performance,   - payload,   - weight and balance system.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
     },
@@ -4737,7 +4737,7 @@ export const terms = {
     {
       Term: "Power Drive Unit",
       Definition:
-        "The Power Drive Unit&nbsp;(PDU)&nbsp;is a cargo loading system used to move a container forwards or backwards using motorized rollers in the floor.&nbsp;",
+        "The Power Drive Unit ;(PDU) ;is a cargo loading system used to move a container forwards or backwards using motorized rollers in the floor. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "V5023RQ1300949",
@@ -4775,7 +4775,7 @@ export const terms = {
     {
       Term: "Pressure Sub-System",
       Definition:
-        "The Pressure Sub-System (PSS) has two main functions:- To do signal conversions of the pressure system inputs and communicate with each Engine Electronic Controller (EEC)- To give cross-channel data link (CCDL) backup.&nbsp;\nThe Pressure Sub-System (PSS) box and sensor is installed with vibration isolators on the brackets on the fan case.&nbsp;",
+        "The Pressure Sub-System (PSS) has two main functions:- To do signal conversions of the pressure system inputs and communicate with each Engine Electronic Controller (EEC)- To give cross-channel data link (CCDL) backup. ;  The Pressure Sub-System (PSS) box and sensor is installed with vibration isolators on the brackets on the fan case. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "SA7320FTR050369",
@@ -4783,7 +4783,7 @@ export const terms = {
     {
       Term: "Primary Full Format Flight Display",
       Definition:
-        "The Primary Full Format Flight Display (PF3D)&nbsp;is a version of the Primary Flight Display (PFD) fully compatible with the Synthetic Vision System&nbsp;(SVS).",
+        "The Primary Full Format Flight Display (PF3D) ;is a version of the Primary Flight Display (PFD) fully compatible with the Synthetic Vision System ;(SVS).",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "X3160RP1712601",
@@ -4865,7 +4865,7 @@ export const terms = {
     {
       Term: "Product Configuration Information",
       Definition:
-        'Set of requirements for product design, realization, verification, operation and support, relevant to the parties, who need to share a common understanding of that definition. \n\nExample: It can be at very high level such as "A320-200 in a 3 Class configuration" or down to details such as "this aircraft has Mod XYZ embodied" or " in this aircraft, the Flight Management and Guidance Computer (FMCG) installed is at P/N X, amendment B.',
+        'Set of requirements for product design, realization, verification, operation and support, relevant to the parties, who need to share a common understanding of that definition.     Example: It can be at very high level such as "A320-200 in a 3 Class configuration" or down to details such as "this aircraft has Mod XYZ embodied" or " in this aircraft, the Flight Management and Guidance Computer (FMCG) installed is at P/N X, amendment B.',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "ISO/FDIS 10007:2003",
@@ -4901,21 +4901,21 @@ export const terms = {
     {
       Term: "Production Standard",
       Definition:
-        "Code allocated to a group of A/C launched in production with a configuration aiming to fulfil an A/C standard specification.&nbsp;The relationship Standard versus A/C standard specification is not always one to one. See ACMR chapter 4.&nbsp;&nbsp;&nbsp;WIDEBODY (W)&nbsp;SINGLE AISLE (N)LONG RANGE (L)DOUBLE DECK (R)A400M(M)&nbsp;A300A310A318A319A320A321A330A340&nbsp;Identifier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ST1A300B2&nbsp;&nbsp;&nbsp;A320-100A320-200&nbsp;&nbsp;A340-300A380-800A400M-100ST2A300B4&nbsp;&nbsp;&nbsp;&nbsp;A321-100A321-200&nbsp;A340-200A380-800F&nbsp;ST3&nbsp;&nbsp;&nbsp;A319-100&nbsp;&nbsp;&nbsp;A340-300C&nbsp;&nbsp;ST4&nbsp;&nbsp;A318-100&nbsp;&nbsp;&nbsp;&nbsp;A340-300 (Growth)&nbsp;&nbsp;ST5&nbsp;A310-200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A340-200 (2000 NM)&nbsp;&nbsp;ST6A300-600A300-600(R)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A330-300&nbsp;&nbsp;&nbsp;ST7&nbsp;A310-300&nbsp;&nbsp;&nbsp;&nbsp;A330-200&nbsp;&nbsp;&nbsp;ST8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A330-300 (Growth)&nbsp;&nbsp;&nbsp;ST9A330-200F (freighter)STB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A340-500&nbsp;&nbsp;STA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A340-600&nbsp;&nbsp;&nbsp;STE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;340-600 Industrial Var. 01&nbsp;&nbsp;STF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;340-500 Industrial Var. 01&nbsp;&nbsp;ST0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prototype aircraftPrototype aircraft&nbsp;Note:&nbsp;The allocation of a new Production Standard should be related to a new Series and/or Derivative.&nbsp;&nbsp;&nbsp;eg: ST3 A340-300C.",
+        "Code allocated to a group of A/C launched in production with a configuration aiming to fulfil an A/C standard specification. ;The relationship Standard versus A/C standard specification is not always one to one. See ACMR chapter 4. ; ; ;WIDEBODY (W) ;SINGLE AISLE (N)LONG RANGE (L)DOUBLE DECK (R)A400M(M) ;A300A310A318A319A320A321A330A340 ;Identifier ; ; ; ; ; ; ; ; ; ;ST1A300B2 ; ; ;A320-100A320-200 ; ;A340-300A380-800A400M-100ST2A300B4 ; ; ; ;A321-100A321-200 ;A340-200A380-800F ;ST3 ; ; ;A319-100 ; ; ;A340-300C ; ;ST4 ; ;A318-100 ; ; ; ;A340-300 (Growth) ; ;ST5 ;A310-200 ; ; ; ; ;A340-200 (2000 NM) ; ;ST6A300-600A300-600(R) ; ; ; ; ;A330-300 ; ; ;ST7 ;A310-300 ; ; ; ;A330-200 ; ; ;ST8 ; ; ; ; ; ;A330-300 (Growth) ; ; ;ST9A330-200F (freighter)STB ; ; ; ; ; ; ;A340-500 ; ;STA ; ; ; ; ; ; ; ;A340-600 ; ; ;STE ; ; ; ; ; ; ;340-600 Industrial Var. 01 ; ;STF ; ; ; ; ; ; ;340-500 Industrial Var. 01 ; ;ST0 ; ; ; ; ; ; ; ;Prototype aircraftPrototype aircraft ;Note: ;The allocation of a new Production Standard should be related to a new Series and/or Derivative. ; ; ;eg: ST3 A340-300C.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
     {
       Term: "Production Standard Rank",
       Definition:
-        "A number allocated to an aircraft already identified by a Production Standard and which identifies its actual position (rank) in that Production Standard sequence.\n(e.g. TYPE-SERIES : A340-300, PRODUCTION  STANDARD : ST1, STANDARD  RANK : 0008, REFERENCE  MSN : 0015).",
+        "A number allocated to an aircraft already identified by a Production Standard and which identifies its actual position (rank) in that Production Standard sequence.  (e.g. TYPE-SERIES : A340-300, PRODUCTION  STANDARD : ST1, STANDARD  RANK : 0008, REFERENCE  MSN : 0015).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
     {
       Term: "Product Liability",
       Definition:
-        "Generic term used to describe the onus on a producer or other to make restitution for loss related to personal injury, property damage or other harm caused by a product.\nNote: The legal and financial implications of Product Liability may vary from one jurisdiction to another.",
+        "Generic term used to describe the onus on a producer or other to make restitution for loss related to personal injury, property damage or other harm caused by a product.  Note: The legal and financial implications of Product Liability may vary from one jurisdiction to another.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
       "Definition Source": "ISO 8402",
@@ -4936,21 +4936,21 @@ export const terms = {
     {
       Term: "Program",
       Definition:
-        "Relates to the organizational management of Airbus aircraft. \n- A300 and A310 \n- A318, A319, A320,  and A321 \n- A330 and A340\n- A380.",
+        "Relates to the organizational management of Airbus aircraft.   - A300 and A310   - A318, A319, A320,  and A321   - A330 and A340  - A380.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
     {
       Term: "Program Code",
       Definition:
-        "Code identifier allocated to Aircraft Programs according to their general characteristics and technological evolution standards within a family.&nbsp;&nbsp;Code&nbsp;&nbsp;Family&nbsp;Aircraft0WidebodyA300/A3102Single AisleA318/A319/A320/A3214Long RangeA330/A3406Double DeckerA380",
+        "Code identifier allocated to Aircraft Programs according to their general characteristics and technological evolution standards within a family. ; ;Code ; ;Family ;Aircraft0WidebodyA300/A3102Single AisleA318/A319/A320/A3214Long RangeA330/A3406Double DeckerA380",
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Aircraft Identification",
     },
     {
       Term: "Project",
       Definition:
-        "A project is a temporary undertaking, consisting of managed, interdependent activities which create a unique product or service.\nIt has a finite life cycle, a clearly defined beginning, and a definite endpoint, which is when deliverables have to be available to agreed time, cost and performance targets.  It is unique in that the product or service is different in some distinguishing way.  See also Project and Project Code.",
+        "A project is a temporary undertaking, consisting of managed, interdependent activities which create a unique product or service.  It has a finite life cycle, a clearly defined beginning, and a definite endpoint, which is when deliverables have to be available to agreed time, cost and performance targets.  It is unique in that the product or service is different in some distinguishing way.  See also Project and Project Code.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Project Management/General",
       "Definition Source": "AP1002",
@@ -4964,7 +4964,7 @@ export const terms = {
     {
       Term: "Project Plan",
       Definition:
-        "A Project Plan is a document gathering the key activities within a project and it shall contain at least the following:\n- its scope\n- the specific objectives\n- requirements/assumptions\n- proposed organization/responsibilities\n- the master schedule and phasing\n- proposed monitoring and control processes, and\n- the main risks.\nIt is a reference for each participant in the project and a guide for its execution and control.  It shall include a reference to all documents relevant to the above topics.  A project plan shall also be established for a significant Work Package (WP).",
+        "A Project Plan is a document gathering the key activities within a project and it shall contain at least the following:  - its scope  - the specific objectives  - requirements/assumptions  - proposed organization/responsibilities  - the master schedule and phasing  - proposed monitoring and control processes, and  - the main risks.  It is a reference for each participant in the project and a guide for its execution and control.  It shall include a reference to all documents relevant to the above topics.  A project plan shall also be established for a significant Work Package (WP).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Project Management/General",
       "Definition Source": "AP1002",
@@ -4996,7 +4996,7 @@ export const terms = {
     {
       Term: "Purchaser",
       Definition:
-        "Person (or entity) who commits to pay a certain price against delivery of goods or services under a Purchase Agreement, Contract or Order. \nDo not use Buyer in this context.",
+        "Person (or entity) who commits to pay a certain price against delivery of goods or services under a Purchase Agreement, Contract or Order.   Do not use Buyer in this context.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Suppliers",
     },
@@ -5010,7 +5010,7 @@ export const terms = {
     {
       Term: "Qualified Person",
       Definition:
-        "Someone having the qualifications, knowledge and experience which correspond to the task required of him.\n\nFor freighter and convertible aircraft: A person, not being a crew member, having sufficient specialized training in aircraft systems and safety procedures to enable him/her to travel in freighter aircraft or convertible aircraft in all-cargo configuration.",
+        "Someone having the qualifications, knowledge and experience which correspond to the task required of him.    For freighter and convertible aircraft: A person, not being a crew member, having sufficient specialized training in aircraft systems and safety procedures to enable him/her to travel in freighter aircraft or convertible aircraft in all-cargo configuration.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Operation/Operations Engineering",
     },
@@ -5025,7 +5025,7 @@ export const terms = {
     {
       Term: "Quality Assurance",
       Definition:
-        "All the planned and systematic activities implemented within the quality system, and demonstrated as needed, to provide adequate confidence that an entity will fulfill requirements for quality.\nNotes:\n1. These are both internal and external purposes for quality assurance. a) Internal quality assurance: within an organization, quality assurance provides confidence to the management. b) External quality assurance: in contractual or other situations, quality assurance provides confidence to the customers or others.\n2. Some quality control and quality assurance actions are interrelated.\n3. Unless requirements for quality fully reflect the needs of the user, quality assurance may not provide adequate confidence.",
+        "All the planned and systematic activities implemented within the quality system, and demonstrated as needed, to provide adequate confidence that an entity will fulfill requirements for quality.  Notes:  1. These are both internal and external purposes for quality assurance. a) Internal quality assurance: within an organization, quality assurance provides confidence to the management. b) External quality assurance: in contractual or other situations, quality assurance provides confidence to the customers or others.  2. Some quality control and quality assurance actions are interrelated.  3. Unless requirements for quality fully reflect the needs of the user, quality assurance may not provide adequate confidence.",
       Status: "Approved",
       "Domain/Sub-domain": "Quality/General",
       "Definition Source": "ISO 8402",
@@ -5033,7 +5033,7 @@ export const terms = {
     {
       Term: "Quality Audit",
       Definition:
-        'Systematic and independent examination to determine whether quality activities and related results comply with planned arrangements and whether these arrangements are implemented effectively and are suitable to achieve objectives.\nNotes:\n1. Often called "quality system audit", "process quality audit", "product quality audit" or "service quality audit".\n2. Quality audits are carried out by staff not having direct responsibility in the areas being audited but, preferably, working in cooperation with the relevant personnel.\n3. One purpose of a "quality audit" is to evaluate the need for improvement or corrective action. An audit should not be confused with quality "surveillance" or "inspection" activities performed for the purpose of process control or product acceptance.\n4. Quality audits can be conducted for internal or external purposes.',
+        'Systematic and independent examination to determine whether quality activities and related results comply with planned arrangements and whether these arrangements are implemented effectively and are suitable to achieve objectives.  Notes:  1. Often called "quality system audit", "process quality audit", "product quality audit" or "service quality audit".  2. Quality audits are carried out by staff not having direct responsibility in the areas being audited but, preferably, working in cooperation with the relevant personnel.  3. One purpose of a "quality audit" is to evaluate the need for improvement or corrective action. An audit should not be confused with quality "surveillance" or "inspection" activities performed for the purpose of process control or product acceptance.  4. Quality audits can be conducted for internal or external purposes.',
       Status: "Approved",
       "Domain/Sub-domain": "Quality/General",
       "Definition Source": "ISO 8402",
@@ -5041,7 +5041,7 @@ export const terms = {
     {
       Term: "Quality Control",
       Definition:
-        "Operational techniques and activities that are used to fulfill requirements for quality.\nNotes:\n1. Quality control involves operational techniques and activities aimed both at monitoring a process and at eliminating causes of unsatisfactory performance at all stages of the quality loop in order to achieve economic effectiveness.\n2. Some quality control and quality assurance actions are interrelated.",
+        "Operational techniques and activities that are used to fulfill requirements for quality.  Notes:  1. Quality control involves operational techniques and activities aimed both at monitoring a process and at eliminating causes of unsatisfactory performance at all stages of the quality loop in order to achieve economic effectiveness.  2. Some quality control and quality assurance actions are interrelated.",
       Status: "Approved",
       "Domain/Sub-domain": "Quality/General",
       "Definition Source": "ISO 8402",
@@ -5099,13 +5099,13 @@ export const terms = {
     {
       Term: "Recommended Spare Parts List",
       Definition:
-        "RSPL is a Non-ATA provisioning data document.\nThe Recommended Spare Parts List is the working document presented and discussed during the Initial Provisioning (IP) conference. It contains recommendations for various spares categories.",
+        "RSPL is a Non-ATA provisioning data document.  The Recommended Spare Parts List is the working document presented and discussed during the Initial Provisioning (IP) conference. It contains recommendations for various spares categories.",
       Status: "Approved",
       "Domain/Sub-domain": "Provisioning/General",
     },
     {
       Term: "Recondition",
-      Definition: "No longer to be used. \nSee Overhaul.",
+      Definition: "No longer to be used.   See Overhaul.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General",
@@ -5121,7 +5121,7 @@ export const terms = {
     {
       Term: "Recorder Interface Unit",
       Definition:
-        "The Recorder Interface Unit (RIU)&nbsp;collects voice data and flight data from the A/C and provides this data to the Automatic Deployable Flight Recorder (ADFR) for recording purposes.",
+        "The Recorder Interface Unit (RIU) ;collects voice data and flight data from the A/C and provides this data to the Automatic Deployable Flight Recorder (ADFR) for recording purposes.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source":
@@ -5130,7 +5130,7 @@ export const terms = {
     {
       Term: "Recorder Release Unit",
       Definition:
-        "The Recorder Release Unit (RRU)&nbsp;is a&nbsp;unit capable to deploy the Automatic Deployable Flight Recorder (ADFR)&nbsp;from the A/C in case of a crash triggered by Crash Detection Circuits connected to the RRU. ",
+        "The Recorder Release Unit (RRU) ;is a ;unit capable to deploy the Automatic Deployable Flight Recorder (ADFR) ;from the A/C in case of a crash triggered by Crash Detection Circuits connected to the RRU. ",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source":
@@ -5175,14 +5175,14 @@ export const terms = {
     {
       Term: "Remote Control Panel",
       Definition:
-        "Remote Control Panel (RCP) is a component of the Autonomous Distress Tracking (ADT) System.&nbsp;",
+        "Remote Control Panel (RCP) is a component of the Autonomous Distress Tracking (ADT) System. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "LR3134D20020320",
     },
     {
       Term: "Rent",
-      Definition: "No longer to be used. \nUse Lease.",
+      Definition: "No longer to be used.   Use Lease.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus - Aircraft Buyer Relationships",
     },
@@ -5197,7 +5197,7 @@ export const terms = {
     {
       Term: "Repair",
       Definition:
-        "No longer to be used.\nTo make an item serviceable by replacing or processing failed or damaged parts.\nNote: A repair, the design of which has not been approved under the Type certification Process must be treated as a Change to the Type Design and, must be approved (ref: JAR 21-431).",
+        "No longer to be used.  To make an item serviceable by replacing or processing failed or damaged parts.  Note: A repair, the design of which has not been approved under the Type certification Process must be treated as a Change to the Type Design and, must be approved (ref: JAR 21-431).",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Servicing - Maintenance - Overhaul - Repair/General",
@@ -5242,7 +5242,7 @@ export const terms = {
     {
       Term: "Report",
       Definition:
-        "A: to make known to the proper authorities. \nB: a usually detailed account or statement.",
+        "A: to make known to the proper authorities.   B: a usually detailed account or statement.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Basic Terms",
       "Definition Source": "Webster Dictionary",
@@ -5296,7 +5296,7 @@ export const terms = {
     {
       Term: "Responsible",
       Definition:
-        "R for RASCI. \nA Responsible person achieves a deliverable by consulting / involving relevant skill resources while working within organizational rules.",
+        "R for RASCI.   A Responsible person achieves a deliverable by consulting / involving relevant skill resources while working within organizational rules.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management Implementation",
       "Definition Source": "AP2075 module 1",
@@ -5462,7 +5462,7 @@ export const terms = {
     {
       Term: "Roll-out",
       Definition:
-        "The formal completion of structural build and systems installation and the point of handover of an aircraft to the Flight Test Department.\nThe term Roll-out is also used in connection with the official presentation for the first time, of the first aircraft of a new program, to the airlines, the public and the press. At this time, the specific aircraft being displayed may not yet be ready for handover to Flight Test.",
+        "The formal completion of structural build and systems installation and the point of handover of an aircraft to the Flight Test Department.  The term Roll-out is also used in connection with the official presentation for the first time, of the first aircraft of a new program, to the airlines, the public and the press. At this time, the specific aircraft being displayed may not yet be ready for handover to Flight Test.",
       Status: "Approved",
       "Domain/Sub-domain": "Planning/General",
     },
@@ -5476,7 +5476,7 @@ export const terms = {
     },
     {
       Term: "Rotable Part",
-      Definition: "No longer to be used. \nUse Rotable Item.",
+      Definition: "No longer to be used.   Use Rotable Item.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -5504,7 +5504,7 @@ export const terms = {
     {
       Term: "Safety Factor",
       Definition:
-        "Safety Factor (SF) is the terminology for defined safety factor by certification Authorities. A safety factor must be applied and its magnitude and applicability is subject to regulations from and agreements with the Airworthiness Authorities.\nA/C Margin Policy will not specifically address safety factors, e.g. 1.5 safety factor between limit and ultimate load, as a margin, even though its origin is not fully understood and we cannot exactly describe what this factor is protecting. SFs are considered as given and appropriate.\nSafety factors are not considered as margins.",
+        "Safety Factor (SF) is the terminology for defined safety factor by certification Authorities. A safety factor must be applied and its magnitude and applicability is subject to regulations from and agreements with the Airworthiness Authorities.  A/C Margin Policy will not specifically address safety factors, e.g. 1.5 safety factor between limit and ultimate load, as a margin, even though its origin is not fully understood and we cannot exactly describe what this factor is protecting. SFs are considered as given and appropriate.  Safety factors are not considered as margins.",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "AP5229",
@@ -5512,7 +5512,7 @@ export const terms = {
     {
       Term: "Scatter Factor",
       Definition:
-        '"Scatter factor" is the terminology for "defined scatter factor" by certification Authorities. In the justification phase of a Programme, the calculation and certification test results are used to establish maintenance tasks (structural inspections, mandatory part replacement, etc.) considered necessary to ensure continued safe operation of the aircraft. An allowance is made for any uncertainty in this assessment -for example, possible variability in the material data on the calculated life- by applying an appropriate scatter factor.\nA more detailed description can be found in AM2364.4.3.',
+        '"Scatter factor" is the terminology for "defined scatter factor" by certification Authorities. In the justification phase of a Programme, the calculation and certification test results are used to establish maintenance tasks (structural inspections, mandatory part replacement, etc.) considered necessary to ensure continued safe operation of the aircraft. An allowance is made for any uncertainty in this assessment -for example, possible variability in the material data on the calculated life- by applying an appropriate scatter factor.  A more detailed description can be found in AM2364.4.3.',
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "AP5229",
@@ -5543,7 +5543,7 @@ export const terms = {
     },
     {
       Term: "Second-Hand Aircraft",
-      Definition: "No longer to be used. \nSee Used Aircraft. ",
+      Definition: "No longer to be used.   See Used Aircraft. ",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -5583,7 +5583,7 @@ export const terms = {
     {
       Term: "Semi-Equipment",
       Definition:
-        "No longer to be used. \nItems shall be classified either Standard or Non-Standard Item (eg: Equipment).",
+        "No longer to be used.   Items shall be classified either Standard or Non-Standard Item (eg: Equipment).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -5605,7 +5605,7 @@ export const terms = {
     {
       Term: "Service Bulletin",
       Definition:
-        "The Service Bulletin is the document used to notify officially the Airlines of the technical data governing embodiment of modifications (or the accomplishment of inspections to be performed) on in-service aircraft.\nNote: ATA Specification No. 100 &amp; 2200 describe the recommended content of the document.",
+        "The Service Bulletin is the document used to notify officially the Airlines of the technical data governing embodiment of modifications (or the accomplishment of inspections to be performed) on in-service aircraft.  Note: ATA Specification No. 100 &amp; 2200 describe the recommended content of the document.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Definition Evolution Implementation",
@@ -5750,7 +5750,7 @@ export const terms = {
     {
       Term: "Space Allocation Model",
       Definition:
-        "Space allocation models are 3D models, not wire-frame, but solid representation of\nparts. SAM models exist through the lifecycle of the project and are associated with\ndesign principles. Structural SAM models can be produced when there is sufficient\nmaturity of design principle/scheme/layout to warrant the generation in 3D. This may be\ndriven by complexity around moving surfaces, landing gear systems long-lead time\ncomponents or interfaces. SAM models lack definition in the early feasibility and concept\nphases and it is only during the end of concept phase and early definition phase (M4-\nM5) that the models will have approximate sizing and begin to provide some validation of\nweight targets. This means a good approximation for the main features and size of the\ncomponent. The benefits of 3D definition for fixed structure facilitates systems routing\nthat are themselves created using SAM models. However this should only amount to\nabout 20- 40% of the structure models. 3D definition helps understand and validate\nindustrialisation (manufacture) and maintenance concepts.\nSAM models will mature through the program phases until they reach a definition\nstandard for production. This means that the revision of the model will be updated whilst\nit matures. If these parts are approved and have decomposed to a level suitable for\nproduction use, then the part may be copied to a definition part number. This number\nmay be the same as the SAM number with the exception of replacing the S with the\nrelevant ATA section number i.e. L57S0000000000 may become L5730000000000.",
+        "Space allocation models are 3D models, not wire-frame, but solid representation of  parts. SAM models exist through the lifecycle of the project and are associated with  design principles. Structural SAM models can be produced when there is sufficient  maturity of design principle/scheme/layout to warrant the generation in 3D. This may be  driven by complexity around moving surfaces, landing gear systems long-lead time  components or interfaces. SAM models lack definition in the early feasibility and concept  phases and it is only during the end of concept phase and early definition phase (M4-  M5) that the models will have approximate sizing and begin to provide some validation of  weight targets. This means a good approximation for the main features and size of the  component. The benefits of 3D definition for fixed structure facilitates systems routing  that are themselves created using SAM models. However this should only amount to  about 20- 40% of the structure models. 3D definition helps understand and validate  industrialisation (manufacture) and maintenance concepts.  SAM models will mature through the program phases until they reach a definition  standard for production. This means that the revision of the model will be updated whilst  it matures. If these parts are approved and have decomposed to a level suitable for  production use, then the part may be copied to a definition part number. This number  may be the same as the SAM number with the exception of replacing the S with the  relevant ATA section number i.e. L57S0000000000 may become L5730000000000.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Definition and Specification/General",
       "Definition Source": "AM2600",
@@ -5786,7 +5786,7 @@ export const terms = {
     {
       Term: "Spares Effectivity",
       Definition:
-        "Indicates aircraft to which the Part will apply: \n- either to replace the initial Part by an identical Part, \n- or according to interchangeability status, \n- or if the corresponding Service Bulletin is accomplished.",
+        "Indicates aircraft to which the Part will apply:   - either to replace the initial Part by an identical Part,   - or according to interchangeability status,   - or if the corresponding Service Bulletin is accomplished.",
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Effectivity",
     },
@@ -5809,7 +5809,7 @@ export const terms = {
     {
       Term: "Special Instruction Control Committee",
       Definition:
-        "The Control Committee enables to have an integrated view on Mixability and impacts induced by the Special Instructions (SI).\nIt is chaired by the Mise Au Point (MAP).",
+        "The Control Committee enables to have an integrated view on Mixability and impacts induced by the Special Instructions (SI).  It is chaired by the Mise Au Point (MAP).",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
     },
@@ -5873,7 +5873,7 @@ export const terms = {
     {
       Term: "Standard",
       Definition:
-        "Code allocated to a group of aircraft launched in production with a configuration that will allow fulfilling an aircraft customized specification based on a Standard Specification.\nThe relationship Standard versus Aircraft Standard Specification is not always one to one (refer to ACMR chapter 4).",
+        "Code allocated to a group of aircraft launched in production with a configuration that will allow fulfilling an aircraft customized specification based on a Standard Specification.  The relationship Standard versus Aircraft Standard Specification is not always one to one (refer to ACMR chapter 4).",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -5916,7 +5916,7 @@ export const terms = {
     {
       Term: "Standard Markings",
       Definition:
-        "Markings established by Airbus for each Standard Specification taking into consideration the certification requirements.  These include:  safety information, maintenance information (such as ground service instructions), cautions and warnings.\nThe text in these markings is in English only and they can be in the form of decals.",
+        "Markings established by Airbus for each Standard Specification taking into consideration the certification requirements.  These include:  safety information, maintenance information (such as ground service instructions), cautions and warnings.  The text in these markings is in English only and they can be in the form of decals.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "AI/PE-T",
@@ -5964,7 +5964,7 @@ export const terms = {
     {
       Term: "Starter Generator Control Unit",
       Definition:
-        "The Starter Generator Contol Unit converts&nbsp;aircraft AC electrical power for APU starting and provides control and monitoring functions for the Starter Generator System",
+        "The Starter Generator Contol Unit converts ;aircraft AC electrical power for APU starting and provides control and monitoring functions for the Starter Generator System",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
       "Definition Source": "A350 XWB ATA 49 (APU)",
@@ -6038,7 +6038,7 @@ export const terms = {
     {
       Term: "Structural Provision",
       Definition:
-        "Structural Provision for an item of equipment (or an assembly) shall mean that the basic structure shall be suitable, from the structural point of view only, to take this item of equipment, and that this item of equipment shall not be supplied also, that, for example, the supports, brackets, tubes and fittings, electrical wiring and hydraulic lines shall neither be installed nor designed in detail.\n\nThe basic structure shall be defined as that which is necessary for the structural integrity of the aircraft unless otherwise specified.",
+        "Structural Provision for an item of equipment (or an assembly) shall mean that the basic structure shall be suitable, from the structural point of view only, to take this item of equipment, and that this item of equipment shall not be supplied also, that, for example, the supports, brackets, tubes and fittings, electrical wiring and hydraulic lines shall neither be installed nor designed in detail.    The basic structure shall be defined as that which is necessary for the structural integrity of the aircraft unless otherwise specified.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Provisions",
     },
@@ -6083,13 +6083,13 @@ export const terms = {
     {
       Term: "Subsidiary",
       Definition:
-        "Company the shares of which are directly or indirectly held by Airbus SAS, Airbus GIE or  the National Companies, eg:\n- European Subsidiaries: AVSA, AIRBUS INVEST S.A.S.,\n- North American subsidiaries: ANA Holdings Inc., ANA Inc., Airbus Service Company Inc., AI Leasing (Corporation) Inc., \n- Japanese subsidiary: Airbus Japan KK.",
+        "Company the shares of which are directly or indirectly held by Airbus SAS, Airbus GIE or  the National Companies, eg:  - European Subsidiaries: AVSA, AIRBUS INVEST S.A.S.,  - North American subsidiaries: ANA Holdings Inc., ANA Inc., Airbus Service Company Inc., AI Leasing (Corporation) Inc.,   - Japanese subsidiary: Airbus Japan KK.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
     {
       Term: "Substitute",
-      Definition: "No longer to be used. \nSee Replace.",
+      Definition: "No longer to be used.   See Replace.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Interchangeability",
       "Definition Source": "WATOG",
@@ -6097,7 +6097,7 @@ export const terms = {
     {
       Term: "Supervise",
       Definition:
-        "A- To coordinate, direct and inspect continuously and at first hand the accomplishment of ... \nB- Oversee with the powers of direction and decision the implementation of one's own or another's intentions.",
+        "A- To coordinate, direct and inspect continuously and at first hand the accomplishment of ...   B- Oversee with the powers of direction and decision the implementation of one's own or another's intentions.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management",
       "Definition Source": "WD",
@@ -6105,7 +6105,7 @@ export const terms = {
     {
       Term: "Supplemental Type Certificate",
       Definition:
-        "Document issued by the&nbsp;Airworthiness Authority&nbsp;to attest that a change in Type Design, which does not require a new application for a Type Certificate, has satisfied the certification procedure.\nNote: If the change is originated by the Type Certificate holder, amendment of the original Type Certificate may replace the STC.",
+        "Document issued by the ;Airworthiness Authority ;to attest that a change in Type Design, which does not require a new application for a Type Certificate, has satisfied the certification procedure.  Note: If the change is originated by the Type Certificate holder, amendment of the original Type Certificate may replace the STC.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Certification/General;Procedural Documentation/General",
@@ -6136,7 +6136,7 @@ export const terms = {
     {
       Term: "Supply Code - FSCM",
       Definition:
-        "No longer to be used. \nReplaced by Commercial and Government Entity code (commonly referred to as CAGE Code).",
+        "No longer to be used.   Replaced by Commercial and Government Entity code (commonly referred to as CAGE Code).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
       "Definition Source": "Airspares",
@@ -6144,7 +6144,7 @@ export const terms = {
     {
       Term: "Supply Code - NSCM",
       Definition:
-        "No longer to be used. \nReplaced by Commercial And Government Entity code.",
+        "No longer to be used.   Replaced by Commercial And Government Entity code.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Aircraft Constituent Items",
     },
@@ -6174,7 +6174,7 @@ export const terms = {
     {
       Term: "Survey",
       Definition:
-        "A- To look over or examine with reference to conditions, situation or value. \nB- Examine and ascertain the state of: Appraise, Estimate, Evaluate.",
+        "A- To look over or examine with reference to conditions, situation or value.   B- Examine and ascertain the state of: Appraise, Estimate, Evaluate.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Management",
       "Definition Source": "WD",
@@ -6182,7 +6182,7 @@ export const terms = {
     {
       Term: "Sustainable Aviation Fuel",
       Definition:
-        "Sustainable Aviation Fuel (SAF)&nbsp;is a biofuel used to power an aircraft. It is a key element to reduce the carbon footprint.",
+        "Sustainable Aviation Fuel (SAF) ;is a biofuel used to power an aircraft. It is a key element to reduce the carbon footprint.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General",
       "Definition Source": "V28FM2003771 issue 1.0",
@@ -6213,7 +6213,7 @@ export const terms = {
     {
       Term: "Systematic Subcontracting",
       Definition:
-        "Subcontracting planned on a medium or long-term basis for organizational or strategic reasons. Used in such cases as where:\n- material or human resources are not available and not planned, \n- in-house technological resources do not exist or are not suitable.",
+        "Subcontracting planned on a medium or long-term basis for organizational or strategic reasons. Used in such cases as where:  - material or human resources are not available and not planned,   - in-house technological resources do not exist or are not suitable.",
       Status: "Approved",
       "Domain/Sub-domain": "Subcontracting/General",
       "Definition Source": "AP2131",
@@ -6258,7 +6258,7 @@ export const terms = {
     },
     {
       Term: "System Trainer",
-      Definition: "No longer to be used. \nSee Part Task Trainer.",
+      Definition: "No longer to be used.   See Part Task Trainer.",
       Status: "Approved",
       "Domain/Sub-domain": "Training/General",
     },
@@ -6302,7 +6302,7 @@ export const terms = {
     {
       Term: "TakeOff Monitoring",
       Definition:
-        "Take Off Monitoring (TOM) is a function implemented on A350 and A380. TOM triggers\nan ECAM alert between 87kt and 100kt when the function detects a significant loss of aircraft\nperformance during the takeoff run. The aim is to initiate a low speed Rejected Take Off.",
+        "Take Off Monitoring (TOM) is a function implemented on A350 and A380. TOM triggers  an ECAM alert between 87kt and 100kt when the function detects a significant loss of aircraft  performance during the takeoff run. The aim is to initiate a low speed Rejected Take Off.",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/General Terms",
       "Definition Source": "X05RP1542101 issue 2.0",
@@ -6323,7 +6323,7 @@ export const terms = {
     {
       Term: "Task - AMM",
       Definition:
-        "Task concerning the AMM (Aircraft Maintenance Manual):\n\nA - (Pre-revision 28 of ATA 100 Specification). Name given to each operation contained in a Maintenance Procedure. Tasks are subdivisions of Topics.\n\nB - (Post revision 28 of ATA 100 Specification). Name given to each operation contained in a Maintenance Procedure. Topics are subdivisions of Tasks.",
+        "Task concerning the AMM (Aircraft Maintenance Manual):    A - (Pre-revision 28 of ATA 100 Specification). Name given to each operation contained in a Maintenance Procedure. Tasks are subdivisions of Topics.    B - (Post revision 28 of ATA 100 Specification). Name given to each operation contained in a Maintenance Procedure. Topics are subdivisions of Tasks.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -6331,7 +6331,7 @@ export const terms = {
     {
       Term: "Task Force",
       Definition:
-        "No longer to be used.\nA group of people, who may be from different sources and disciplines, functioning under a Chairman for the purpose of accomplishing a specific predetermined objective.",
+        "No longer to be used.  A group of people, who may be from different sources and disciplines, functioning under a Chairman for the purpose of accomplishing a specific predetermined objective.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -6345,14 +6345,14 @@ export const terms = {
     {
       Term: "Technical Definition",
       Definition:
-        "Document containing the Definition Data of an aircraft or a product. It records the identified requirements (functions, characteristics, performances).\nBasis for establishment of Aircraft Definition or Technical Specifications (Systems/Equipment/Products...).",
+        "Document containing the Definition Data of an aircraft or a product. It records the identified requirements (functions, characteristics, performances).  Basis for establishment of Aircraft Definition or Technical Specifications (Systems/Equipment/Products...).",
       Status: "Approved",
       "Domain/Sub-domain": "Common Terms/Basic Terms",
     },
     {
       Term: "Technical Description Unit",
       Definition:
-        "This is a particular solution for an operational function described by an Entity per Aircraft Change (EPAC) item. \nE.g. : the introduction of a TELEDYNE QAR.",
+        "This is a particular solution for an operational function described by an Entity per Aircraft Change (EPAC) item.   E.g. : the introduction of a TELEDYNE QAR.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
     },
@@ -6375,7 +6375,7 @@ export const terms = {
     {
       Term: "Technical Impact Difference",
       Definition:
-        "No longer to be used.\nThe TID is an Airbus Technical Information System (A.T.I.S.) data package which contains all the information necessary to describe the technical differences between two aircraft delivered consecutively within a fleet.\n\nThe impact of these differences is given respect to:\n- modification descriptions,\n- operational and maintenance documentation,\n- spares provisioning and technical upgrade of the fleet.",
+        "No longer to be used.  The TID is an Airbus Technical Information System (A.T.I.S.) data package which contains all the information necessary to describe the technical differences between two aircraft delivered consecutively within a fleet.    The impact of these differences is given respect to:  - modification descriptions,  - operational and maintenance documentation,  - spares provisioning and technical upgrade of the fleet.",
       Status: "Approved",
       "Domain/Sub-domain": "Customer Services/Information Systems",
     },
@@ -6389,7 +6389,7 @@ export const terms = {
     {
       Term: "Technical Information Document",
       Definition:
-        "A TID is a summary in a standard form of the technical changes made to an aircraft following the introduction of a modification.\n\nTIDs are made available to Customers prior to delivery of the first aircraft of a fleet and throughout fleet delivery.",
+        "A TID is a summary in a standard form of the technical changes made to an aircraft following the introduction of a modification.    TIDs are made available to Customers prior to delivery of the first aircraft of a fleet and throughout fleet delivery.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Configuration/General",
     },
@@ -6411,14 +6411,14 @@ export const terms = {
     {
       Term: "Technical Report",
       Definition:
-        "This template is used for complex technical subjects that require more information than can be accommodated in a Technical Memorandum and is used internal to Airbus. This may include graphs, tables, assessments, evaluations, analyses, illustrations etc. The Technical Report contains the options of List of Distribution, Record of Revisions, Table of Contents and Table of References.\nThis template has provision for Author, Approval and Authorization signatures, as necessary, depending on the Document Level as defined in AP1020 Rules and Guidance for Signature and Release of Technical Documents.\nThe Technical Report is not used to convey information external to Airbus, unless it is the subject of an Engineering Coordination Memorandum (ECM).",
+        "This template is used for complex technical subjects that require more information than can be accommodated in a Technical Memorandum and is used internal to Airbus. This may include graphs, tables, assessments, evaluations, analyses, illustrations etc. The Technical Report contains the options of List of Distribution, Record of Revisions, Table of Contents and Table of References.  This template has provision for Author, Approval and Authorization signatures, as necessary, depending on the Document Level as defined in AP1020 Rules and Guidance for Signature and Release of Technical Documents.  The Technical Report is not used to convey information external to Airbus, unless it is the subject of an Engineering Coordination Memorandum (ECM).",
       Status: "Approved",
       "Domain/Sub-domain": "Documentation Templates/General",
     },
     {
       Term: "Technical Solutions",
       Definition:
-        "Relates to Pre-Defined/Pre-Designed possible choices of Functions and/or Techniques.  \nBasis for Options Catalog Compilation.",
+        "Relates to Pre-Defined/Pre-Designed possible choices of Functions and/or Techniques.    Basis for Options Catalog Compilation.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/General",
     },
@@ -6525,7 +6525,7 @@ export const terms = {
     {
       Term: "Tolerance",
       Definition:
-        'Tolerance is the terminology for a variability of measurement, material, data, etc. that is known and must be handled by the designer to allow the "system" to function with the given tolerances.\nTolerances are not considered as margins, but may form part of the evidence from which a margin is specified.',
+        'Tolerance is the terminology for a variability of measurement, material, data, etc. that is known and must be handled by the designer to allow the "system" to function with the given tolerances.  Tolerances are not considered as margins, but may form part of the evidence from which a margin is specified.',
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "AP5229",
@@ -6540,7 +6540,7 @@ export const terms = {
     {
       Term: "Tooling Master Geometry",
       Definition:
-        "The Tooling Master Geometry provides a common data set which can be directly used for verification and validation purpose without geometrical transformation by the Manufacturing and Quality teams. It is a support to be used by all industrial partners to ensure interchangeability and geometrical interface requirements.&nbsp;",
+        "The Tooling Master Geometry provides a common data set which can be directly used for verification and validation purpose without geometrical transformation by the Manufacturing and Quality teams. It is a support to be used by all industrial partners to ensure interchangeability and geometrical interface requirements. ;",
       Status: "Approved",
       "Domain/Sub-domain": "Design-Engineering/General",
       "Definition Source": "M2953",
@@ -6555,7 +6555,7 @@ export const terms = {
     {
       Term: "Topic-AMM",
       Definition:
-        'A - (Pre-revision 28 of ATA 100 Specification). Name given to each specific maintenance requirement. Usually corresponds to the content of a Page Block.\n\nB - (Post revision 28 of ATA 100 Specification). Headings used within tasks to provide groupings of sub-tasks (steps). Topics include headings such as "prepare for removal", "prepare for inspection" ... etc. For less complex procedures which do not use headings, a single topic, "procedure", is used to provide the proper outline requirements.',
+        'A - (Pre-revision 28 of ATA 100 Specification). Name given to each specific maintenance requirement. Usually corresponds to the content of a Page Block.    B - (Post revision 28 of ATA 100 Specification). Headings used within tasks to provide groupings of sub-tasks (steps). Topics include headings such as "prepare for removal", "prepare for inspection" ... etc. For less complex procedures which do not use headings, a single topic, "procedure", is used to provide the proper outline requirements.',
       Status: "Approved",
       "Domain/Sub-domain":
         "Customer Services/Contractual Technical Publications",
@@ -6586,7 +6586,7 @@ export const terms = {
     {
       Term: "Traceability",
       Definition:
-        "Ability to trace the history, application or location of an entity by means of recorded identifications.\nThis may be : a physical follow-up (with item, Part Number, serial number installed on Assy, Subassy, Aircraft) - a documented follow-up (eg : Supplier - Purchaser delivery documents, stock, follow-up).",
+        "Ability to trace the history, application or location of an entity by means of recorded identifications.  This may be : a physical follow-up (with item, Part Number, serial number installed on Assy, Subassy, Aircraft) - a documented follow-up (eg : Supplier - Purchaser delivery documents, stock, follow-up).",
       Status: "Approved",
       "Domain/Sub-domain": "Quality/General",
       "Definition Source": "ISO9000:2000",
@@ -6615,7 +6615,7 @@ export const terms = {
     {
       Term: "Training Module",
       Definition:
-        "Instructional item defined by: \n- a training objective, \n- a pedagogical approach, \n- the training media used (transparencies, Computer-Based Training - CBT, system trainer, simulator...), \n- a technical definition.",
+        "Instructional item defined by:   - a training objective,   - a pedagogical approach,   - the training media used (transparencies, Computer-Based Training - CBT, system trainer, simulator...),   - a technical definition.",
       Status: "Approved",
       "Domain/Sub-domain": "Training/General",
     },
@@ -6713,7 +6713,7 @@ export const terms = {
     {
       Term: "Type Certificate",
       Definition:
-        "Document issued by the European Aircraft Safety Agency. The Type Certificate is allocated only if the aircraft has satisfied the Certification procedure.\nOne set of documents:\n- Airworthiness Requirements,\n- Certification Procedure,\nis established for each Airbus aircraft project .\nThe Type Certificate holder is Airbus.",
+        "Document issued by the European Aircraft Safety Agency. The Type Certificate is allocated only if the aircraft has satisfied the Certification procedure.  One set of documents:  - Airworthiness Requirements,  - Certification Procedure,  is established for each Airbus aircraft project .  The Type Certificate holder is Airbus.",
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
       "Definition Source": "A30 Issue AY",
@@ -6735,7 +6735,7 @@ export const terms = {
     {
       Term: "Type Design",
       Definition:
-        "The Type Design consists of:\n- the drawings and specifications, and a listing of those drawings and specifications, necessary to define the configuration and design features of the product shown to comply with the Applicable Requirements\n- information on materials and processes and on methods of manufacture and assembly of the product necessary to ensure the conformity of that product\n- the Airworthiness Limitations section of the Instructions for Continued Airworthiness as required by the appropriate Certification Specification (CS); and\n- any other data necessary to allow by comparison, the determination of the airworthiness of later products of the same type.",
+        "The Type Design consists of:  - the drawings and specifications, and a listing of those drawings and specifications, necessary to define the configuration and design features of the product shown to comply with the Applicable Requirements  - information on materials and processes and on methods of manufacture and assembly of the product necessary to ensure the conformity of that product  - the Airworthiness Limitations section of the Instructions for Continued Airworthiness as required by the appropriate Certification Specification (CS); and  - any other data necessary to allow by comparison, the determination of the airworthiness of later products of the same type.",
       Status: "Approved",
       "Domain/Sub-domain": "Certification/General",
       "Definition Source": "EASA",
@@ -6743,7 +6743,7 @@ export const terms = {
     {
       Term: "Uncustomized Aircraft",
       Definition:
-        "Administrative configuration.  \nBasic Build Status completed with the part of the Cabin Furnishings which is not customized.  \nDefined by the applicable Aircraft Standard Specification and its associated Cabin Configuration Guide.",
+        "Administrative configuration.    Basic Build Status completed with the part of the Cabin Furnishings which is not customized.    Defined by the applicable Aircraft Standard Specification and its associated Cabin Configuration Guide.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/Aircraft Build Definition",
     },
@@ -6771,7 +6771,7 @@ export const terms = {
     {
       Term: "Used Aircraft",
       Definition:
-        'An aircraft which has been subject to one or more changes of ownership since construction including the first delivery by Airbus.  \nNote: Denoted by "USED" where space is limited.',
+        'An aircraft which has been subject to one or more changes of ownership since construction including the first delivery by Airbus.    Note: Denoted by "USED" where space is limited.',
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -6806,7 +6806,7 @@ export const terms = {
     {
       Term: "Validity",
       Definition:
-        "Codes allocated to a change (MOD/MP) launched in design and production. \nThese codes make it possible to:\n- Express the configuration(s) for which the change has to be developed, \n- Determine the ranges of Manufacturer Serial Numbers (MSNs) on which the change shall be embodied before delivery. \nThese codes consist of the Standard(s), Industrial Standard(s) and/or Versions for which the change is valid, the corresponding modification category and the embodiment point (or range).\nNote: When the change is only applicable to in-service aircraft, the validity does not indicate the embodiment points.",
+        "Codes allocated to a change (MOD/MP) launched in design and production.   These codes make it possible to:  - Express the configuration(s) for which the change has to be developed,   - Determine the ranges of Manufacturer Serial Numbers (MSNs) on which the change shall be embodied before delivery.   These codes consist of the Standard(s), Industrial Standard(s) and/or Versions for which the change is valid, the corresponding modification category and the embodiment point (or range).  Note: When the change is only applicable to in-service aircraft, the validity does not indicate the embodiment points.",
       Status: "Approved",
       "Domain/Sub-domain":
         "Aircraft Definition Evolution/Modification Allocation",
@@ -6823,7 +6823,7 @@ export const terms = {
     {
       Term: "Variant",
       Definition:
-        "Designates a specific model definition.\nEg: modified design weight:\nType-model: A340-313\nVariant: - 020\nVariant definition: MTOW 271, MLW 190, MZFW 178",
+        "Designates a specific model definition.  Eg: modified design weight:  Type-model: A340-313  Variant: - 020  Variant definition: MTOW 271, MLW 190, MZFW 178",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/Certification",
     },
@@ -6866,7 +6866,7 @@ export const terms = {
     {
       Term: "Version",
       Definition:
-        "Code allocated to a group of aircraft to be assembled and delivered in accordance with a customized specification.\nSpecific Airbus version codes are used to manage the configuration of prototypes.",
+        "Code allocated to a group of aircraft to be assembled and delivered in accordance with a customized specification.  Specific Airbus version codes are used to manage the configuration of prototypes.",
       Status: "Approved",
       "Domain/Sub-domain": "Aircraft Identification/General",
     },
@@ -6942,7 +6942,7 @@ export const terms = {
     {
       Term: "Working Group",
       Definition:
-        "No longer to be used.\nA specialist group established under the authority and control of a Task Force, formed to handle a specialized subject. It consists of a group of people, who may be from different sources and disciplines, functioning under a Chairman for the purpose of continuing over a period of time, a program of work which has been defined by and is subject to the approval of the associated Task Force.",
+        "No longer to be used.  A specialist group established under the authority and control of a Task Force, formed to handle a specialized subject. It consists of a group of people, who may be from different sources and disciplines, functioning under a Chairman for the purpose of continuing over a period of time, a program of work which has been defined by and is subject to the approval of the associated Task Force.",
       Status: "Approved",
       "Domain/Sub-domain": "Organization/Airbus",
     },
@@ -6969,7 +6969,7 @@ export const terms = {
     {
       Term: "Work-Sharing",
       Definition:
-        "Any Airbus Program is subject to Work-sharing Document (Report 6), which defines the Work-sharing between the industrial organizations for the Program development phase. In principle, the Work-sharing for the series production phase is the same as for the development phase. \nIn other words, the Report 6 determines what has to be done by whom without specifying how.",
+        "Any Airbus Program is subject to Work-sharing Document (Report 6), which defines the Work-sharing between the industrial organizations for the Program development phase. In principle, the Work-sharing for the series production phase is the same as for the development phase.   In other words, the Report 6 determines what has to be done by whom without specifying how.",
       Status: "Approved",
       "Domain/Sub-domain": "Industrialization/General",
     },
@@ -6990,7 +6990,7 @@ export const terms = {
     {
       Term: "X File",
       Definition:
-        "The X File identifies&nbsp;raw materials and their measurements for items for which the aircraft manufacturer authorizes local manufacturing of the finished item Part Number marked 'LM' in the Aircraft Illustrated Parts Catalog (AIPC).",
+        "The X File identifies ;raw materials and their measurements for items for which the aircraft manufacturer authorizes local manufacturing of the finished item Part Number marked 'LM' in the Aircraft Illustrated Parts Catalog (AIPC).",
       Status: "Approved",
       "Domain/Sub-domain": "Provisioning/General",
       "Definition Source": "Based on ATA Spec 2000",
@@ -6998,7 +6998,7 @@ export const terms = {
     {
       Term: "Y File",
       Definition:
-        "The Y File includes all items selected as pool Item candidates based on the following criteria: \n1. Unit price greater than 300,00 USD. \n2. Essentiality code 1 or 2 (essential or conditionally essential for dispatch of the aircraft). \n3. Spare Parts Classification of 2 (rotable) or 6 (repairable)",
+        "The Y File includes all items selected as pool Item candidates based on the following criteria:   1. Unit price greater than 300,00 USD.   2. Essentiality code 1 or 2 (essential or conditionally essential for dispatch of the aircraft).   3. Spare Parts Classification of 2 (rotable) or 6 (repairable)",
       Status: "Approved",
       "Domain/Sub-domain": "Provisioning/General",
       "Definition Source": "Based on ATA Spec 2000",

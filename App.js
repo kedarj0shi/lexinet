@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { useFonts } from "expo-font";
 import { SHADOWS, COLORS, FONTS, SIZES } from "./constants/theme";
-import { Header, FocusedStatusBar, Card } from "./components/index";
+import { Header, FocusedStatusBar, Card, AppFooter } from "./components/index";
 import { COMBINEDATA } from "./constants/CombinedData";
 import { useEffect, useState } from "react";
 
@@ -23,6 +23,7 @@ export default function App() {
 
   const [data, setData] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const [isListEmpty, setIsListEmpty] = useState(false);
 
   useEffect(() => {
     setData(COMBINEDATA);
@@ -32,6 +33,7 @@ export default function App() {
     const searched_text = searchText.toLowerCase();
     // console.log(searched_text);
     const new_data = modifyData(searched_text);
+    setIsListEmpty(new_data.length === 0 ? true : false);
     setData(new_data);
   }, [searchText]);
 
@@ -57,11 +59,18 @@ export default function App() {
           searchText={searchText}
           setSearchText={(e) => setSearchText(e)}
         />
-        <View style={{ zIndex: 0 }}>
+        <View style={{ zIndex: 0, flex: 1 }}>
           <FlatList
             data={data}
-            renderItem={({ item }) => <Card data={item} />}
+            renderItem={({ item }) => (
+              <Card
+                data={item}
+                isListEmpty={isListEmpty}
+                setIsListEmpty={setIsListEmpty}
+              />
+            )}
             showsVerticalScrollIndicator={false}
+            style={{ paddingBottom: 200 }}
           />
         </View>
         <View
@@ -76,6 +85,7 @@ export default function App() {
           <View style={{ height: 300, backgroundColor: COLORS.primary }} />
           <View style={{ flex: 1, backgroundColor: COLORS.white }} />
         </View>
+        <AppFooter />
       </View>
     </SafeAreaView>
   );
