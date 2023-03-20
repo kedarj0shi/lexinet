@@ -5,10 +5,11 @@ import {
   SafeAreaView,
   TextInput,
   FlatList,
+  Image,
 } from "react-native";
 import { useFonts } from "expo-font";
 import { SHADOWS, COLORS, FONTS, SIZES } from "./constants/theme";
-import { Header, FocusedStatusBar, Card, AppFooter } from "./components/index";
+import { Header, FocusedStatusBar, Card } from "./components/index";
 import { COMBINEDATA } from "./constants/CombinedData";
 import { useEffect, useState } from "react";
 
@@ -33,7 +34,8 @@ export default function App() {
     const searched_text = searchText.toLowerCase();
     // console.log(searched_text);
     const new_data = modifyData(searched_text);
-    setIsListEmpty(new_data.length === 0 ? true : false);
+    const isEmpty = new_data.length === 0 ? true : false;
+    setIsListEmpty(isEmpty);
     setData(new_data);
   }, [searchText]);
 
@@ -53,25 +55,35 @@ export default function App() {
   if (!loaded) return null;
   return (
     <SafeAreaView style={styles.container}>
-      {/* <FocusedStatusBar background={COLORS.primary} /> */}
       <View style={{ flex: 1 }}>
         <Header
           searchText={searchText}
           setSearchText={(e) => setSearchText(e)}
         />
         <View style={{ zIndex: 0, flex: 1 }}>
-          <FlatList
-            data={data}
-            renderItem={({ item }) => (
-              <Card
-                data={item}
-                isListEmpty={isListEmpty}
-                setIsListEmpty={setIsListEmpty}
+          {isListEmpty === false ? (
+            <FlatList
+              data={data}
+              renderItem={({ item }) => <Card data={item} />}
+              showsVerticalScrollIndicator={false}
+              style={{ paddingBottom: 200 }}
+            />
+          ) : (
+            <View
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: 150,
+              }}>
+              <Image
+                source={require("./assets/find.png")}
+                style={{ width: 250, height: 250 }}
               />
-            )}
-            showsVerticalScrollIndicator={false}
-            style={{ paddingBottom: 200 }}
-          />
+              <Text style={{ fontWeight: 600 }}>
+                Sorry couldn't find your word. Please try again!
+              </Text>
+            </View>
+          )}
         </View>
         <View
           style={{
@@ -82,10 +94,16 @@ export default function App() {
             bottom: 0,
             zIndex: -1,
           }}>
-          <View style={{ height: 300, backgroundColor: COLORS.primary }} />
+          <View
+            style={{
+              height: 200,
+              backgroundColor: COLORS.primary,
+              borderBottomLeftRadius: SIZES.font,
+              borderBottomRightRadius: SIZES.font,
+            }}
+          />
           <View style={{ flex: 1, backgroundColor: COLORS.white }} />
         </View>
-        <AppFooter />
       </View>
     </SafeAreaView>
   );

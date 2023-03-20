@@ -15,6 +15,8 @@ const Header = (props) => {
       style={{
         backgroundColor: COLORS.primary,
         padding: SIZES.font,
+        borderBottomLeftRadius: SIZES.font,
+        borderBottomRightRadius: SIZES.font,
       }}>
       <View
         style={{
