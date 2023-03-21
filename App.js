@@ -45,7 +45,12 @@ export default function App() {
       const title = (
         item.Abbreviation ? item.Abbreviation : item.Term
       ).toLowerCase();
+      let desc = item.Definition ? item.Definition : item["Full Form"];
+      desc = desc.split(" ").join("");
+      desc = desc.toLowerCase();
       if (title.includes(searched_text)) {
+        newData.push(item);
+      } else if (desc.includes(searched_text)) {
         newData.push(item);
       }
     });
