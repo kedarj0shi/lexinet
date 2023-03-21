@@ -80,7 +80,7 @@ export default function App() {
                 style={{ width: 250, height: 250 }}
               />
               <Text style={{ fontWeight: 600 }}>
-                Sorry couldn't find your word. Please try again!
+                Sorry couldn't find your word. Try another one!
               </Text>
             </View>
           )}
