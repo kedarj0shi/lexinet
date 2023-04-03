@@ -47,7 +47,7 @@ export default function App() {
       ).toLowerCase();
       let desc = item.Definition ? item.Definition : item["Full Form"];
       let flag = false;
-      if (desc.length > 0) {
+      if (desc && desc.length > 0) {
         desc = desc.split(" ").join("");
         desc = desc.toLowerCase();
         flag = true;
