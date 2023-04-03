@@ -46,11 +46,15 @@ export default function App() {
         item.Abbreviation ? item.Abbreviation : item.Term
       ).toLowerCase();
       let desc = item.Definition ? item.Definition : item["Full Form"];
-      desc = desc.split(" ").join("");
-      desc = desc.toLowerCase();
+      let flag = false;
+      if (desc.length > 0) {
+        desc = desc.split(" ").join("");
+        desc = desc.toLowerCase();
+        flag = true;
+      }
       if (title.includes(searched_text)) {
         newData.push(item);
-      } else if (desc.includes(searched_text)) {
+      } else if (flag && desc.includes(searched_text)) {
         newData.push(item);
       }
     });
